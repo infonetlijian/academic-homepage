@@ -35,6 +35,11 @@ plugins:
 # timezone: Asia/Shanghai
 
 collections:
-  - publications
   - news
+  - cv
+  - professional activities
+  - publications
+  - projects
+  - patents
+  - teaching
   - showcase
