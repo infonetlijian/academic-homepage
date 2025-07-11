@@ -91,7 +91,7 @@ body_attr: >-
                     {% if item.links and item.links.size > 0 %}
                     <div class="pub-links">
                         {% for link in item.links %}
-                            {% if link.name == "DOI" %}
+                            {% if link.name == "DOI" and link.url !="''" %}
                             <a href="https://doi.org/{{ link.url }}" target="_blank" 
                                class="btn btn-sm btn-outline-secondary me-1"
                                data-bs-toggle="tooltip" title="Digital Object Identifier">
@@ -121,7 +121,7 @@ body_attr: >-
                                data-type="gbt7714"
                                data-doi="{% if item.doi %}{{ item.doi }}{% else %}{{ link.url }}{% endif %}"
                                data-bs-toggle="tooltip" title="Copy GB/T 7714 Citation">
-                                <i class="fas fa-scroll"></i> GB/T 7714
+                                <i class="fas fa-scroll"></i> Cite
                             </button>
                             {% else %}
                             <a href="{{ link.url }}" target="_blank" 

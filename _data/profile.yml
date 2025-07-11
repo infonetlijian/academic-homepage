@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: ""
 
 positions:
-- logo: /assets/images/badges/USTC_blue.png  # Logo is optional
-  name: Associate Researcher 
+#- logo: /assets/images/badges/USTC_blue.png  # Logo is optional
+- name: Associate Researcher 
 - name: IEEE Senior Member, ACM Member
 
 

@@ -1,5 +1,6 @@
 - title: I receive Internet Technical Committee (ITC) Early Career Award 2025 from IEEE Communications Society!
   tag: Award
+  feature: true
   date: '2025-06-01'
 - title: 'our paper "ForenSiX: Automated Network Forensics and Diagnostics for Beyond-5G and 6G Networks Using Large Language Models" is accepted by IEEE Network!'
   tag: Paper
@@ -43,8 +44,9 @@
 - title: 'our paper "NetRT: Enhancing RDMA with Retransmission Offloading in Data Center Networks" is accepted by IEEE Conference on Computer Communications (INFOCOM) 2025!'
   tag: Paper
   date: '2024-12-01'
-- title: I serve as TPC Co-Chair in IEEE IWCMC 2025 QNC! Welcome to submit your valuable work! **
+- title: I serve as TPC Co-Chair in IEEE IWCMC 2025 QNC! Welcome to submit your valuable work! 
   tag: Activity
+  feature: true
   date: '2024-12-01'
   links:
   - name: Link
@@ -61,11 +63,12 @@
 - title: 'our paper "PLMS: A Packet Loss Memory-Based Transmission Enhancement Scheme for GEO Satellite Networks" is accepted by International Conference on Wireless Communications and Signal Processing (WCSP 2024)!'
   tag: Paper
   date: '2024-09-01'
-- title: our team receive Second Class Prize in the Seventennth National College Student Information Security Contest (2024-第十七届全国大学生信息安全竞赛 -—作品赛)!\\]
+- title: our team receive Second Class Prize in the Seventennth National College Student Information Security Contest (2024-第十七届全国大学生信息安全竞赛 -—作品赛)!
   tag: Contest
+  feature: true
   date: '2024-08-01'
   links:
-  - name: '[News'
+  - name: 'News'
     url: http://news.ustc.edu.cn/info/1055/88618.htm
 - title: our paper "Purification Scheduling Control for Throughput Maximization in Quantum Networks" is accepted by Communications Physics!
   tag: Paper
@@ -79,13 +82,13 @@
 - title: my first master student, Jin Tang, has successfully defended his dissertation and get Master's degree!
   tag: Teaching
   date: '2024-05-01'
-- title: our team receive Winning Prize in the Sixth USTC Innovation and Entrepreneurship Competition (2024-第六届“中国科大庆峰杯”创新创业大赛)!\\]\\]
+- title: our team receive Winning Prize in the Sixth USTC Innovation and Entrepreneurship Competition (2024-第六届“中国科大庆峰杯”创新创业大赛)!
   tag: Contest
   date: '2024-05-01'
   links:
-  - name: '[News'
+  - name: 'News'
     url: https://sie.ustc.edu.cn/2024/0520/c23907a641406/page.htm
-  - name: '[Link'
+  - name: 'Link'
     url: https://www.ustc.edu.cn/info/1364/21344.htm
 - title: our paper "A Secure and Efficient Blockchain Sharding Scheme via Hybrid Consensus and Dynamic Management" is accepted by IEEE Transactions on Information Forensics & Security!
   tag: Paper
@@ -125,6 +128,7 @@
   date: '2023-09-01'
 - title: I receive the elevation to the grade of IEEE Senior Member!
   tag: Activity
+  feature: true
   date: '2023-08-01'
 - title: 'our paper "Enabling In-Network Caching in Traditional IP Networks: Selective Router Upgrades and Cooperative Cache Strategies" is accepted by IEEE Transactions on Network Science and Engineering!'
   tag: Paper
@@ -135,13 +139,14 @@
 - title: 'our paper "Efficient Remote Entanglement Distribution in Quantum Networks: A Segment-based Method" is accepted by IEEE Transactions on Network and Service Management!'
   tag: Paper
   date: '2023-07-01'
-- title: 'our paper "Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions" is accepted by IEEE Communications Surveys and Tutorials! \\]\\]'
+- title: 'our paper "Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions" is accepted by IEEE Communications Surveys and Tutorials!'
   tag: Paper
+  feature: true
   date: '2023-07-01'
   links:
-  - name: '[arXiv'
+  - name: 'arXiv'
     url: https://arxiv.org/pdf/2307.12490.pdf
-  - name: '[News'
+  - name: 'News'
     url: https://news.ustc.edu.cn/info/1055/84366.htm
 - title: our paper "Swapping-based Entanglement Routing Design for Congestion Mitigation in Quantum Networks" is accepted by IEEE Transactions on Networking!
   tag: Paper
@@ -170,16 +175,18 @@
 - title: 'our paper "TCCC: A Throughput Consistency Congestion Control Algorithm for MPTCP in Mixed Transmission of Long and Short Flows" is accepted by IEEE Transactions on Network and Service Management!'
   tag: Paper
   date: '2023-01-01'
-- title: 'our paper "SimQN: a Network-layer Simulator for the Quantum Network Investigation" is accepted by IEEE Network! \\]**'
+- title: 'our paper "SimQN: a Network-layer Simulator for the Quantum Network Investigation" is accepted by IEEE Network!'
   date: '2023-01-01'
+  feature: true
   links:
-  - name: '[SimQN Project'
+  - name: 'SimQN Project'
     url: https://qnlab-ustc.com/projects/simqn/
-- title: our published paper "Building a Large-Scale and Wide-Area Quantum Internet Based on an OSI-alike Model" receives the Seventh China Association for Science and Technology Outstanding Scientific and Technological Paper Award! \\]
+- title: our published paper "Building a Large-Scale and Wide-Area Quantum Internet Based on an OSI-alike Model" receives the Seventh China Association for Science and Technology Outstanding Scientific and Technological Paper Award!
   tag: Award
+  feature: true
   date: '2022-09-01'
   links:
-  - name: '[Link'
+  - name: 'Link'
     url: https://cybersec.ustc.edu.cn/2022/1012/c23847a575449/page.htm
 - title: our paper "Achieving Flexible and Lightweight Multipath Congestion Control through Online Learning" is accepted by IEEE Transactions on Network and Service Management!
   tag: Paper
@@ -190,11 +197,11 @@
 - title: our paper "A Heuristic Remote Entanglement Distribution Algorithm on Memory-Limited Quantum Paths" is accepted by IEEE Transactions on Communications!
   tag: Paper
   date: '2022-09-01'
-- title: our paper "Fidelity-Guaranteed Entanglement Routing in Quantum Networks" is accepted by IEEE Transactions on Communications! \\]
+- title: our paper "Fidelity-Guaranteed Entanglement Routing in Quantum Networks" is accepted by IEEE Transactions on Communications!
   tag: Paper
   date: '2022-08-01'
   links:
-  - name: '[Open-source Code'
+  - name: 'Open-source Code'
     url: https://github.com/infonetlijian/Fidelity-Guaranteed-Entanglement-Routing
 - title: our papers "Content-Aware Routing based on Cached Content Prediction in Satellite Networks", "Privacy-preserving Truth Discovery with Outlier Detection in Mobile Crowdsensing Systems", "Forward Private Multi-Client Searchable Encryption with Efficient Access Control in Cloud Storage" are accepted by Globecom 2022!
   tag: Paper
@@ -223,10 +230,13 @@
 - title: I receive the general funding supported by China Postdoctoral Science Foundation!
   tag: Paper
   date: '2021-11-01'
-- title: 2021.9，I receive "Mozi Outstanding Youth Award" of USTC!
+- title: I receive "Mozi Outstanding Youth Award" of USTC!
   tag: Award
-- title: 2021.9，our paper "Secure Transmission by Leveraging Multiple Intelligent Reflecting Surfaces in MISO Systems" is accepted by IEEE Transactions on Mobile Computing!
+  feature: true
+  date: '2021-09-01'
+- title: our paper "Secure Transmission by Leveraging Multiple Intelligent Reflecting Surfaces in MISO Systems" is accepted by IEEE Transactions on Mobile Computing!
   tag: Paper
+  date: '2021-09-01'
 - title: our paper "Service Prioritization in Information Centric Networking with Heterogenous Content Providers" is accepted by IEEE Transactions on Network and Service Management!
   tag: Paper
   date: '2021-08-01'

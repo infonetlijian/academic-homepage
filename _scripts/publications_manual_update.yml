@@ -17,7 +17,7 @@
   tags: []
   links:
   - name: DOI
-    url: 10.1109/MNET.2025.3579925
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -27,8 +27,8 @@
   - name: GB/T 7714
     url: ''
 - id: chen2025asynchronous
-  title: An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution
-    Networks
+  title: 'An Asynchronous Key Relay Protocol Design for Large-scale Quantum Key Distribution
+    Networks'
   date: '2025-06-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -75,7 +75,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tnsm.2025.3577951
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -85,8 +85,8 @@
   - name: GB/T 7714
     url: ''
 - id: zheng2025efficient
-  title: An Efficient and Robust Resource Allocation Method for Quantum Key Distribution
-    Networks
+  title: 'An Efficient and Robust Resource Allocation Method for Quantum Key Distribution
+    Networks'
   date: '2025-05-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -115,8 +115,7 @@
   - name: GB/T 7714
     url: ''
 - id: han2025multipath
-  title: From An In-Depth Understanding of Multipath TCP Enhancement Schemes to an
-    Adaptive Control Framework in Wireless Networks
+  title: 'From An In-Depth Understanding of Multipath TCP Enhancement Schemes to an Adaptive Control Framework in Wireless Networks'
   date: '2025-05-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -145,8 +144,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2025caaf
-  title: 'CAAF: An NDN-Based Cache-Aware Adaptive Forwarding Strategy for Reliable
-    Content Delivery in VANETs'
+  title: 'CAAF: An NDN-Based Cache-Aware Adaptive Forwarding Strategy for Reliable Content Delivery in VANETs'
   date: '2025-02-01'
   type: journal
   publisher: IEEE Transactions on Mobile Computing
@@ -164,7 +162,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tmc.2025.3543458
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -203,8 +201,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2025integration
-  title: 'Integration of Quantum Key Distribution Networks and Classical Networks:
-    An Evolution Perspective'
+  title: 'Integration of Quantum Key Distribution Networks and Classical Networks: An Evolution Perspective'
   date: '2025-01-01'
   type: conference
   publisher: IEEE Network
@@ -233,7 +230,7 @@
   - name: GB/T 7714
     url: ''
 - id: yang2025on
-  title: An On-demand Routing Scheme with QoS Provisioning for QKD Networks
+  title: 'An On-demand Routing Scheme with QoS Provisioning for QKD Networks'
   date: '2025-01-01'
   type: conference
   publisher: IEEE International Conference on Quantum Communications
@@ -261,8 +258,7 @@
   - name: GB/T 7714
     url: ''
 - id: yan2025handover
-  title: A Handover-aware Congestion Control Algorithm Assisted by DRL in LEO Satellite
-    Networks
+  title: 'A Handover-aware Congestion Control Algorithm Assisted by DRL in LEO Satellite Networks'
   date: '2025-01-01'
   type: conference
   publisher: IEEE International Conference on Communications
@@ -280,7 +276,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/apcc62576.2024.10767961
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -290,8 +286,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2025decentralized
-  title: 'Decentralized Key Management and Service in Quantum Key Distribution Networks:
-    An Experimental Implementation'
+  title: 'Decentralized Key Management and Service in Quantum Key Distribution Networks: An Experimental Implementation'
   date: '2025-01-01'
   type: journal
   publisher: IEEE Journal on Selected Areas in Communications
@@ -349,8 +344,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2024fair
-  title: 'Fair-EAS: Entanglement Allocation and Selection for Process-Oriented Fairness
-    in Quantum Communication Networks'
+  title: 'Fair-EAS: Entanglement Allocation and Selection for Process-Oriented Fairness in Quantum Communication Networks'
   date: '2024-12-01'
   type: journal
   publisher: IEEE Transactions on Communications
@@ -382,8 +376,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2024drm
-  title: 'DRM-ETP: A Dynamic Rate Matching-Based Entanglement Transport Protocol in
-    Quantum Network'
+  title: 'DRM-ETP: A Dynamic Rate Matching-Based Entanglement Transport Protocol in Quantum Network'
   date: '2024-11-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -405,18 +398,17 @@
   tags: []
   links:
   - name: DOI
-    url: 10.1109/TNET.2024.3507785
+    url: ''
   - name: PDF
     url: ''
   - name: Code
     url: ''
   - name: BibTeX
-    url: 10.1109/TNET.2024.3507785
+    url: ''
   - name: GB/T 7714
     url: ''
 - id: li2025narrowgap
-  title: 'NarrowGap: Reducing Bottlenecks for End-to-end Entanglement Distribution
-    in Quantum Networks'
+  title: 'NarrowGap: Reducing Bottlenecks for End-to-end Entanglement Distribution in Quantum Networks'
   date: '2024-11-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -444,8 +436,7 @@
   - name: GB/T 7714
     url: ''
 - id: long2024plms
-  title: 'PLMS: A Packet Loss Memory-Based Transmission Enhancement Scheme for GEO
-    Satellite Networks'
+  title: 'PLMS: A Packet Loss Memory-Based Transmission Enhancement Scheme for GEO Satellite Networks'
   date: '2024-09-01'
   type: conference
   publisher: International Conference on Wireless Communications and Signal Processing
@@ -472,8 +463,7 @@
   - name: GB/T 7714
     url: ''
 - id: ding2024slp
-  title: 'SLP: A Secure and Lightweight Scheme against Content Poisoning Attacks in
-    Named Data Networking Based on Probing'
+  title: 'SLP: A Secure and Lightweight Scheme against Content Poisoning Attacks in Named Data Networking Based on Probing'
   date: '2024-08-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -501,7 +491,7 @@
   - name: GB/T 7714
     url: ''
 - id: xiao2024purification
-  title: Purification Scheduling Control for Throughput Maximization in Quantum Networks
+  title: 'Purification Scheduling Control for Throughput Maximization in Quantum Networks'
   date: '2024-08-01'
   type: journal
   publisher: Communications Physics
@@ -529,7 +519,7 @@
   - name: GB/T 7714
     url: ''
 - id: yang2024adaptive
-  title: Adaptive Multi-source Multi-path Congestion Control for Named Data Networking
+  title: 'Adaptive Multi-source Multi-path Congestion Control for Named Data Networking'
   date: '2024-08-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -558,8 +548,7 @@
   - name: GB/T 7714
     url: ''
 - id: zhuang2024pushing
-  title: Pushing the Performance Limits of Datacenter Networks with Fine-grained Priority
-    Assignment
+  title: 'Pushing the Performance Limits of Datacenter Networks with Fine-grained Priority Assignment'
   date: '2024-07-01'
   type: journal
   publisher: IEEE Transactions on Network Science and Engineering
@@ -591,8 +580,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2024secure
-  title: A Secure and Efficient Blockchain Sharding Scheme via Hybrid Consensus and
-    Dynamic Management
+  title: 'A Secure and Efficient Blockchain Sharding Scheme via Hybrid Consensus and Dynamic Management'
   date: '2024-05-01'
   type: journal
   publisher: IEEE Transactions on Information Forensics
@@ -622,8 +610,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2024efficient
-  title: Efficient Routing Design Based on Entanglement Flow Loss Effect in Quantum
-    Networks
+  title: 'Efficient Routing Design Based on Entanglement Flow Loss Effect in Quantum Networks'
   date: '2024-05-01'
   type: conference
   publisher: IEEE International Conference on Quantum Communications
@@ -678,8 +665,7 @@
   - name: GB/T 7714
     url: ''
 - id: tang2024cooperative
-  title: 'Cooperative Caching in Satellite-Terrestrial Integrated Networks: A Region
-    Features aware Approach'
+  title: 'Cooperative Caching in Satellite-Terrestrial Integrated Networks: A Region Features aware Approach'
   date: '2024-02-01'
   type: journal
   publisher: IEEE Transactions on Vehicular Technology
@@ -697,7 +683,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tvt.2024.3369106
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -707,7 +693,7 @@
   - name: GB/T 7714
     url: ''
 - id: tang2024opportunistic
-  title: Opportunistic Content-aware Routing in Satellite-Terrestrial Integrated Networks
+  title: 'Opportunistic Content-aware Routing in Satellite-Terrestrial Integrated Networks'
   date: '2024-03-01'
   type: journal
   publisher: IEEE Transactions on Mobile Computing
@@ -735,8 +721,7 @@
   - name: GB/T 7714
     url: ''
 - id: chen2024qcskdf
-  title: 'Q-CSKDF: A Continuous and Security Key Derivation Function for Quantum Key
-    Distribution'
+  title: 'Q-CSKDF: A Continuous and Security Key Derivation Function for Quantum Key Distribution'
   date: '2024-01-01'
   type: journal
   publisher: IEEE Network
@@ -752,7 +737,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/mnet.2024.3396160
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -762,8 +747,7 @@
   - name: GB/T 7714
     url: ''
 - id: chen2024redp
-  title: 'REDP: Reliable Entanglement Distribution Protocol Design for Large-scale
-    Quantum Networks'
+  title: 'REDP: Reliable Entanglement Distribution Protocol Design for Large-scale Quantum Networks'
   date: '2023-12-01'
   type: journal
   publisher: IEEE Journal on Seclected Areas in Communications
@@ -782,7 +766,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/jsac.2024.3380101
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -792,8 +776,7 @@
   - name: GB/T 7714
     url: ''
 - id: wu2024distributed
-  title: A Distributed Routing Protocol Based on Key Reservation in Quantum Key Distribution
-    Networks
+  title: 'A Distributed Routing Protocol Based on Key Reservation in Quantum Key Distribution Networks'
   date: '2024-06-01'
   type: conference
   publisher: IEEE International Conference on Communications
@@ -811,7 +794,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/icc51166.2024.10622992
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -821,7 +804,7 @@
   - name: GB/T 7714
     url: ''
 - id: liu2023volume
-  title: Volume-Hiding Range Searchable Symmetric Encryption for Large-Scale Datasets
+  title: 'Volume-Hiding Range Searchable Symmetric Encryption for Large-Scale Datasets'
   date: '2023-11-01'
   type: journal
   publisher: IEEE Transactions on Dependable Secure Computing
@@ -842,7 +825,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1016/j.future.2025.107930
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -852,8 +835,7 @@
   - name: GB/T 7714
     url: ''
 - id: han2024fmptcl
-  title: 'FMPTCP: Achieving High Bandwidth Utilization and Low Latency in Data Center
-    Networks'
+  title: 'FMPTCP: Achieving High Bandwidth Utilization and Low Latency in Data Center Networks'
   date: '2023-09-01'
   type: journal
   publisher: IEEE Transactions on Communications
@@ -871,7 +853,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tcomm.2023.3323670
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -881,7 +863,7 @@
   - name: GB/T 7714
     url: ''
 - id: xiao2023connectionless
-  title: A Connectionless Entanglement Distribution Protocol Design in Quantum Networks
+  title: 'A Connectionless Entanglement Distribution Protocol Design in Quantum Networks'
   date: '2023-09-01'
   type: journal
   publisher: IEEE Network
@@ -899,7 +881,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/mnet.2023.3321044
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -909,8 +891,7 @@
   - name: GB/T 7714
     url: ''
 - id: han2024enabling
-  title: 'Enabling In-Network Caching in Traditional IP Networks: Selective Router
-    Upgrades and Cooperative Cache Strategies'
+  title: 'Enabling In-Network Caching in Traditional IP Networks: Selective Router Upgrades and Cooperative Cache Strategies'
   date: '2023-07-01'
   type: journal
   publisher: IEEE Transactions on Network Science and Engineering
@@ -937,8 +918,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2024efficient
-  title: An Efficient Scheduling Scheme of Swapping and Purification Operations for
-    End-to-End Entanglement Distribution in Quantum Networks
+  title: 'An Efficient Scheduling Scheme of Swapping and Purification Operations for End-to-End Entanglement Distribution in Quantum Networks'
   date: '2023-07-01'
   type: journal
   publisher: IEEE Transactions on Network Science and Engineering
@@ -967,8 +947,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2023entanglement
-  title: 'Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies,
-    Challenges, and Research Directions'
+  title: 'Entanglement-Assisted Quantum Networks: Mechanics, Enabling Technologies, Challenges, and Research Directions'
   date: '2023-07-01'
   type: journal
   publisher: IEEE Communications Surveys and Tutorials
@@ -997,8 +976,7 @@
   - name: GB/T 7714
     url: ''
 - id: liu2023decc
-  title: 'DECC: Achieving Low Latency in Data Center Networks with Deep Reinforcement
-    Learning'
+  title: 'DECC: Achieving Low Latency in Data Center Networks with Deep Reinforcement Learning'
   date: '2023-06-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -1025,8 +1003,7 @@
   - name: GB/T 7714
     url: ''
 - id: chen2024qddca
-  title: 'Q-DDCA: Decentralized Dynamic Congestion Avoid Routing in Large-Scale Quantum
-    Networks'
+  title: 'Q-DDCA: Decentralized Dynamic Congestion Avoid Routing in Large-Scale Quantum Networks'
   date: '2023-06-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -1080,8 +1057,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2023swapping
-  title: Swapping-based Entanglement Routing Design for Congestion Mitigation in Quantum
-    Networks
+  title: 'Swapping-based Entanglement Routing Design for Congestion Mitigation in Quantum Networks'
   date: '2023-01-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -1100,7 +1076,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tnsm.2023.3275815
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -1110,8 +1086,7 @@
   - name: GB/T 7714
     url: ''
 - id: xue2023make
-  title: 'Make Rental Reliable: Blockchain-based Network Slice Management Framework
-    with SLA Guarantee Series Mobile Communications and Networks'
+  title: 'Make Rental Reliable: Blockchain-based Network Slice Management Framework with SLA Guarantee Series Mobile Communications and Networks'
   date: '2023-03-01'
   type: journal
   publisher: IEEE Communications Magazine
@@ -1137,8 +1112,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2023segment
-  title: A Segment-based Multipath Distribution Method in Partially-Trusted Relay
-    Quantum Networks
+  title: 'A Segment-based Multipath Distribution Method in Partially-Trusted Relay Quantum Networks'
   date: '2023-02-01'
   type: journal
   publisher: IEEE Communications Magazine
@@ -1168,7 +1142,7 @@
   - name: GB/T 7714
     url: ''
 - id: xing2023online
-  title: An Online Learning Assisted Packet Scheduler for MPTCP in Mobile Networks
+  title: 'An Online Learning Assisted Packet Scheduler for MPTCP in Mobile Networks'
   date: '2023-02-01'
   type: journal
   publisher: IEEE/ACM Transactions on Networking
@@ -1195,8 +1169,7 @@
   - name: GB/T 7714
     url: ''
 - id: han2023edar
-  title: 'EdAR: An Experience-driven Multipath Schedulerfor Seamless Handoff in Mobile
-    Networks'
+  title: 'EdAR: An Experience-driven Multipath Schedulerfor Seamless Handoff in Mobile Networks'
   date: '2023-02-01'
   type: journal
   publisher: IEEE Transactions on Wireless Communications
@@ -1225,8 +1198,7 @@
   - name: GB/T 7714
     url: ''
 - id: yang2023tccc
-  title: 'TCCC: A Throughput Consistency Congestion Control Algorithm for MPTCP in
-    Mixed Transmission of Long and Short Flows'
+  title: 'TCCC: A Throughput Consistency Congestion Control Algorithm for MPTCP in Mixed Transmission of Long and Short Flows'
   date: '2023-01-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -1282,7 +1254,7 @@
   - name: GB/T 7714
     url: ''
 - id: tang2022content
-  title: Content-Aware Routing based on Cached Content Prediction in Satellite Networks
+  title: 'Content-Aware Routing based on Cached Content Prediction in Satellite Networks'
   date: '2022-08-01'
   type: conference
   publisher: IEEE Global Communications Conference
@@ -1309,8 +1281,7 @@
   - name: GB/T 7714
     url: ''
 - id: zhao2022privacy
-  title: Privacy-preserving Truth Discovery with Outlier Detection in Mobile Crowdsensing
-    Systems
+  title: 'Privacy-preserving Truth Discovery with Outlier Detection in Mobile Crowdsensing Systems'
   date: '2022-08-01'
   type: conference
   publisher: IEEE Global Communications Conference
@@ -1337,8 +1308,7 @@
   - name: GB/T 7714
     url: ''
 - id: yang2022forward
-  title: Forward Private Multi-Client Searchable Encryption with Efficient Access
-    Control in Cloud Storage
+  title: 'Forward Private Multi-Client Searchable Encryption with Efficient Access Control in Cloud Storage'
   date: '2022-08-01'
   type: conference
   publisher: 2022 IEEE Global Communications Conference
@@ -1365,8 +1335,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2022connection
-  title: Connection-oriented and Connectionless Remote Entanglement Distribution Strategies
-    in Quantum Networks
+  title: 'Connection-oriented and Connectionless Remote Entanglement Distribution Strategies in Quantum Networks'
   date: '2022-05-01'
   type: journal
   publisher: IEEE Network
@@ -1393,7 +1362,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2022asynchronous
-  title: An Asynchronous Entanglement Distribution Protocol for Quantum Networks
+  title: 'An Asynchronous Entanglement Distribution Protocol for Quantum Networks'
   date: '2022-07-01'
   type: journal
   publisher: IEEE Network
@@ -1421,8 +1390,7 @@
   - name: GB/T 7714
     url: ''
 - id: chen2022heuristic
-  title: A Heuristic Remote Entanglement Distribution Algorithm on Memory-Limited
-    Quantum Paths
+  title: 'A Heuristic Remote Entanglement Distribution Algorithm on Memory-Limited Quantum Paths'
   date: '2022-09-01'
   type: journal
   publisher: IEEE Transactions on Communications
@@ -1451,7 +1419,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2022font
-  title: Fidelity-Guaranteed Entanglement Routing in Quantum Networks
+  title: 'Fidelity-Guaranteed Entanglement Routing in Quantum Networks'
   date: '2022-08-01'
   type: journal
   publisher: IEEE Transactions on Communications
@@ -1479,8 +1447,7 @@
   - name: GB/T 7714
     url: ''
 - id: xue2022font
-  title: 'CSEVP: A Collaborative, Secure, and Efficient Content Validation Protection
-    Framework for Information Centric Networking'
+  title: 'CSEVP: A Collaborative, Secure, and Efficient Content Validation Protection Framework for Information Centric Networking'
   date: '2021-11-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -1498,7 +1465,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tnsm.2021.3136547
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -1508,7 +1475,7 @@
   - name: GB/T 7714
     url: ''
 - id: zhang2022dynamic
-  title: A Dynamic Flow Table Management Method Based on Real-time Traffic Monitoring
+  title: 'A Dynamic Flow Table Management Method Based on Real-time Traffic Monitoring'
   date: '2022-06-01'
   type: conference
   publisher: IEEE International Conference on High Performance Switching and Routing
@@ -1535,7 +1502,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2022connection
-  title: A Connection-Oriented Entanglement Distribution Design in Quantum Networks
+  title: 'A Connection-Oriented Entanglement Distribution Design in Quantum Networks'
   date: '2022-05-01'
   type: journal
   publisher: IEEE Transactions on Quantum Engineering
@@ -1561,8 +1528,7 @@
   - name: GB/T 7714
     url: ''
 - id: xue2022distributed
-  title: A Distributed Authentication Scheme Based on Smart Contract for Roaming Service
-    in Mobile Vehicular Networks
+  title: 'A Distributed Authentication Scheme Based on Smart Contract for Roaming Service in Mobile Vehicular Networks'
   date: '2022-01-01'
   type: journal
   publisher: IEEE Transactions on Vehicular Technology
@@ -1589,8 +1555,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2022cluster
-  title: A Cluster-based Networking Approach for Large-scale and Wide-area Quantum
-    Key Agreement
+  title: 'A Cluster-based Networking Approach for Large-scale and Wide-area Quantum Key Agreement'
   date: '2022-01-01'
   type: journal
   publisher: Quantum Information Processing
@@ -1618,8 +1583,7 @@
   - name: GB/T 7714
     url: ''
 - id: xue2022blockchain
-  title: A Blockchain based User Subscription Data Management and Access Control Scheme
-    in Mobile Communication Networks
+  title: 'A Blockchain based User Subscription Data Management and Access Control Scheme in Mobile Communication Networks'
   date: '2021-12-01'
   type: journal
   publisher: IEEE Transactions on Vehicular Technology
@@ -1646,8 +1610,7 @@
   - name: GB/T 7714
     url: ''
 - id: yuan2021fog
-  title: A Fog-Aided Privacy-Preserving Truth Discovery Framework over Crowdsensed
-    Data Streams
+  title: 'A Fog-Aided Privacy-Preserving Truth Discovery Framework over Crowdsensed Data Streams'
   date: '2021-08-01'
   type: conference
   publisher: IEEE Global Communications Conference
@@ -1673,8 +1636,7 @@
   - name: GB/T 7714
     url: ''
 - id: qin2021service
-  title: Service Prioritization in Information Centric Networking with Heterogeneous
-    Content Providers
+  title: 'Service Prioritization in Information Centric Networking with Heterogeneous Content Providers'
   date: '2021-08-01'
   type: journal
   publisher: IEEE Transactions on Network and Service Management
@@ -1690,7 +1652,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/hoticn48464.2019.9063222
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -1700,7 +1662,7 @@
   - name: GB/T 7714
     url: ''
 - id: han2021leveraging
-  title: Leveraging Coupled BBR and Adaptive Packet Scheduling to Boost MPTCP
+  title: 'Leveraging Coupled BBR and Adaptive Packet Scheduling to Boost MPTCP'
   date: '2021-05-01'
   type: journal
   publisher: IEEE Transactions on Wireless Communications
@@ -1728,7 +1690,7 @@
   - name: GB/T 7714
     url: ''
 - id: xing2021low
-  title: A Low-Latency MPTCP Scheduler for Live Video Streaming in Mobile Networks
+  title: 'A Low-Latency MPTCP Scheduler for Live Video Streaming in Mobile Networks'
   date: '2021-05-01'
   type: journal
   publisher: IEEE Transactions on Wireless Communications
@@ -1756,8 +1718,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2021building
-  title: Building a Large-Scale and Wide-Area Quantum Internet Based on an OSI-alike
-    Model
+  title: 'Building a Large-Scale and Wide-Area Quantum Internet Based on an OSI-alike Model'
   date: '2021-11-01'
   type: journal
   publisher: China Communications
@@ -1786,8 +1747,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2023secure
-  title: Secure Transmission by Leveraging Multiple Intelligent Reflecting Surfaces
-    in MISO Systems
+  title: 'Secure Transmission by Leveraging Multiple Intelligent Reflecting Surfaces in MISO Systems'
   date: '2021-09-01'
   type: journal
   publisher: IEEE Transactions on Mobile Computing
@@ -1803,7 +1763,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tmc.2021.3114167
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -1838,7 +1798,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2020user
-  title: A User-Centric Handover Scheme for Ultra-Dense LEO Satellite Networks
+  title: 'A User-Centric Handover Scheme for Ultra-Dense LEO Satellite Networks'
   date: '2020-07-01'
   type: journal
   publisher: IEEE Wireless Communications Letters
@@ -1865,8 +1825,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2020energy
-  title: Energy Efficiency and Traffic Offloading Optimization in Integrated Satellite/Terrestrial
-    Radio Access Networks
+  title: 'Energy Efficiency and Traffic Offloading Optimization in Integrated Satellite/Terrestrial Radio Access Networks'
   date: '2020-01-01'
   type: journal
   publisher: IEEE Transactions on Wireless Communications
@@ -1892,8 +1851,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2020icn
-  title: An ICN/SDN-based Network Architecture and Efficient Content Retrieval for
-    Future Satellite-Terrestrial Integrated Networks
+  title: 'An ICN/SDN-based Network Architecture and Efficient Content Retrieval for Future Satellite-Terrestrial Integrated Networks'
   date: '2020-02-01'
   type: journal
   publisher: IEEE Network
@@ -1919,8 +1877,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2019temporal
-  title: Temporal Netgrid Model-based Dynamic Routing in Large-Scale Small Satellite
-    Networks
+  title: 'Temporal Netgrid Model-based Dynamic Routing in Large-Scale Small Satellite Networks'
   date: '2019-04-01'
   type: journal
   publisher: IEEE Transactions on Vehicular Technology
@@ -1935,7 +1892,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/icc.2017.7996551
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -1945,7 +1902,7 @@
   - name: GB/T 7714
     url: ''
 - id: zhu2017service
-  title: Service Function Chain Mapping with Resource Fragmentation Avoidance
+  title: 'Service Function Chain Mapping with Resource Fragmentation Avoidance'
   date: '2017-12-01'
   type: conference
   publisher: 2017 IEEE Global Communications Conference
@@ -1970,7 +1927,7 @@
   - name: GB/T 7714
     url: ''
 - id: wang2017robust
-  title: Robust Satellite Image Transmission over Bandwidth-constrained Wireless Channels
+  title: 'Robust Satellite Image Transmission over Bandwidth-constrained Wireless Channels'
   date: '2017-06-01'
   type: conference
   publisher: 2017 IEEE International Conference on Communications
@@ -1995,7 +1952,7 @@
   - name: GB/T 7714
     url: ''
 - id: li2017temporal
-  title: Temporal Netgrid Model based Routing Optimization in Satellite Networks
+  title: 'Temporal Netgrid Model based Routing Optimization in Satellite Networks'
   date: '2017-06-01'
   type: conference
   publisher: 2017 IEEE International Conference on Communications
@@ -2009,7 +1966,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/icc.2017.7996551
+    url: ''
   - name: PDF
     url: ''
   - name: Code
@@ -2019,8 +1976,7 @@
   - name: GB/T 7714
     url: ''
 - id: wu2016two
-  title: A Two-Layer Caching Model for Content Delivery Services in Satellite-Terrestrial
-    Networks
+  title: 'A Two-Layer Caching Model for Content Delivery Services in Satellite-Terrestrial Networks'
   date: '2016-12-01'
   type: conference
   publisher: 2016 IEEE Global Communications Conference
