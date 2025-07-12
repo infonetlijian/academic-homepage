@@ -1,0 +1,49 @@
+- type: Award
+  list:
+  - title: ITC Early Career Award(IEEE ComSoc)
+    date: 2025
+    links:
+  - title: Outstanding Scientific and Technological Paper Award (China Association for Science and Technology)
+    date: 2022
+    links:
+  - title: Mozi Outstanding Youth Award, 2021 (University of Science and Technology of China)
+    date: 
+    links:
+- type: Editorial Board
+  list: 
+  - title: Editor of China Communications
+    date: 2023-02-01
+    links: 
+- type: Organizing Committee
+  list:
+  - title: Session Chair, IEEE The 21st International Wireless Communications & Mobile Computing Conference (IWCMC), Quantum Security, 2025
+    date: 2025
+    links:
+  - title: Session Chair, IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC), 2024
+    date: 2024
+    links:
+  - title: Session Chair (CISS 15 and IS 17), IEEE Global Communications Conference (GLOBECOM), 2023
+    date: 2024
+    links:
+  - title: Session Chair (Session 14), IEEE/ACM International Symposium on Quality of Service (IWQoS), 2021
+    date: 2024
+    links:
+- type: Technical Program Committee (TPC)
+  list:
+  - title: TPC Member, IEEE Global Communications Conference (GLOBECOM)
+    date: 2025
+    links:
+  - title: TPC Co-Chair, IEEE The 21st International Wireless Communications & Mobile Computing Conference (IWCMC), Quantum Networks and Computing (QNC) Symposium
+    date: 2025
+    links:
+- type: Membership
+  list:
+  - title: IEEE Senior Member (IEEE ComSoc & IEEE CS)
+    date: 2023
+    links:
+  - title: ACM Member
+    date: 
+    links:
+  - title: CCF Member
+    date: 
+    links:
