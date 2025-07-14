@@ -46,7 +46,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TON.2025.3579932'
   - name: PDF
     url: ''
   - name: Code
@@ -75,7 +75,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tnsm.2025.3577951
+    url: '10.1109/TNSM.2025.3577951'
   - name: PDF
     url: ''
   - name: Code
@@ -105,7 +105,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSM.2025.3577285'
   - name: PDF
     url: ''
   - name: Code
@@ -135,7 +135,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSM.2025.3577957'
   - name: PDF
     url: ''
   - name: Code
@@ -164,9 +164,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tmc.2025.3543458
+    url: '10.1109/TMC.2025.3543458'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2025-%20%E3%80%90TMC%E3%80%91%20-CAAF_An_NDN-Based_Cache-Aware_Adaptive_Forwarding_Strategy_for_Reliable_Content_Delivery_in_VANETs.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -193,7 +193,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MCOM.004.2400475'
   - name: PDF
     url: ''
   - name: Code
@@ -223,7 +223,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MNET.2025.3537691'
   - name: PDF
     url: ''
   - name: Code
@@ -309,15 +309,17 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/JSAC.2025.3568040'
   - name: PDF
     url: ''
   - name: Code
-    url: ''
+    url: 'https://github.com/QNLab-USTC/Key-Management-and-Service-Framework-for-QKD-Networks'
   - name: BibTeX
     url: ''
   - name: GB/T 7714
     url: ''
+  - name: Dataset
+    url: 'https://github.com/QNLab-USTC/USTC-QNLab-KMS24-Dataset'
 - id: wang2025netrt
   title: 'NetRT: Enhancing RDMA with Retransmission Offloading in Data Center Networks'
   date: '2025-12-01'
@@ -339,7 +341,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/INFOCOM55648.2025.11044493'
   - name: PDF
     url: ''
   - name: Code
