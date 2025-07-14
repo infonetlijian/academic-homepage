@@ -1,0 +1,27 @@
+---
+layout: default
+title: Activities
+navbar_title: Activities
+---
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">  <!-- 修改为col-12使卡片宽度最大化 -->
+            <h1 class="mb-4">Professional Activities</h1>
+            
+            {% include widgets/activities_card.html type="Award" %}
+            {% include widgets/activities_card.html type="Editorial Board" %}
+            {% include widgets/activities_card.html type="Technical Program Committee (TPC)" %}
+            {% include widgets/activities_card.html type="Organizing Committee" %}
+            {% include widgets/activities_card.html type="Invited Talk" %}
+            {% include widgets/activities_card.html type="Membership" %}
+            
+            <!-- Optional: Add a back to home link -->
+            <div class="text-center mt-4">
+                <a href="{{ '/' | relative_url }}" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

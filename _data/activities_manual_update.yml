@@ -1,41 +1,25 @@
 - type: Award
   list:
-  - title: ITC Early Career Award(IEEE ComSoc)
+  - title: ITC Early Career Award (IEEE ComSoc)
     date: 2025
     links:
   - title: Outstanding Scientific and Technological Paper Award (China Association for Science and Technology)
     date: 2022
     links:
-  - title: Mozi Outstanding Youth Award, 2021 (University of Science and Technology of China)
-    date: 
+  - title: Mozi Outstanding Youth Award (University of Science and Technology of China)
+    date: 2021
     links:
 - type: Editorial Board
   list: 
   - title: Editor of China Communications
-    date: 2023-02-01
+    date: 2023
     links: 
-- type: Organizing Committee
+- type: Invited Talk
   list:
-  - title: Session Chair, IEEE The 21st International Wireless Communications & Mobile Computing Conference (IWCMC), Quantum Security, 2025
+  - title: The Research on Development of Quantum Networks and Core Technologies (量子网络发展与核心技术研究)
+    conference: CCF CFTC 2025
     date: 2025
-    links:
-  - title: Session Chair, IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC), 2024
-    date: 2024
-    links:
-  - title: Session Chair (CISS 15 and IS 17), IEEE Global Communications Conference (GLOBECOM), 2023
-    date: 2024
-    links:
-  - title: Session Chair (Session 14), IEEE/ACM International Symposium on Quality of Service (IWQoS), 2021
-    date: 2024
-    links:
-- type: Technical Program Committee (TPC)
-  list:
-  - title: TPC Member, IEEE Global Communications Conference (GLOBECOM)
-    date: 2025
-    links:
-  - title: TPC Co-Chair, IEEE The 21st International Wireless Communications & Mobile Computing Conference (IWCMC), Quantum Networks and Computing (QNC) Symposium
-    date: 2025
-    links:
+    links: https://mp.weixin.qq.com/s/Yzbh7nT6LoQTbYRGG2yb7Q
 - type: Membership
   list:
   - title: IEEE Senior Member (IEEE ComSoc & IEEE CS)
@@ -46,4 +30,78 @@
     links:
   - title: CCF Member
     date: 
+    links:
+- type: Organizing Committee
+  isCommittee: true
+  list:
+  - position: Session Chair
+    conference: IEEE The 21st International Wireless Communications & Mobile Computing Conference (IWCMC), Quantum Security
+    highlight: false
+    date: 2025
+    links:
+  - position: Session Chair
+    conference: IEEE Global Communications Conference (GLOBECOM), CISS 15 and IS 17
+    highlight: false
+    date: 2023
+    links:
+  - position: Session Chair
+    conference: IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC)
+    highlight: false
+    date: 2024
+    links:
+  - position: Session Chair
+    conference: IEEE/ACM International Symposium on Quality of Service (IWQoS), Session 14
+    highlight: false
+    date: 2021
+    links:
+- type: Technical Program Committee (TPC)
+  isCommittee: true
+  list:
+  - position: TPC Co-Chair
+    conference: IEEE The 21st International Wireless Communications & Mobile Computing Conference (IWCMC), Quantum Networks and Computing (QNC) Symposium
+    highlight: true
+    date: 2025
+    links:
+  - position: TPC Member
+    conference: IEEE Global Communications Conference (GLOBECOM)
+    highlight: false
+    multipleYears: 2025/2024
+    date: 2025
+    links:
+  - position: TPC Member
+    conference: IEEE International Conference on Computer Communications (INFOCOM) Poster
+    highlight: false
+    multipleYears: 2025/2024
+    date: 2025
+    links:
+  - position: TPC Member
+    conference: IEEE Wireless Communications and Signal Processing (WCSP)
+    highlight: false
+    date: 2024
+    links:
+  - position: TPC Member
+    conference: IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC)
+    highlight: false
+    date: 2024
+    links:
+  - position: TPC Member
+    conference: IEEE International Conference on Quantum Computing and Engineering (QCE)
+    highlight: false
+    date: 2024
+    links:
+  - position: TPC Member
+    conference: IEEE International Conference on Distributed Computing Systems (ICDCS)
+    highlight: false
+    date: 2024
+    links:
+  - position: TPC Member
+    conference: IEEE International Conference on Computer Communications and Networks (ICCCN)
+    highlight: false
+    multipleYears: 2024/2023
+    date: 2024
+    links:
+  - position: TPC Member
+    conference: IEEE International Conference on Computing, Networking and Communications (ICNC)
+    highlight: false
+    date: 2024
     links:

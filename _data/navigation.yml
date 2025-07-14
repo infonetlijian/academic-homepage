@@ -5,13 +5,7 @@ pages:
   url: /
 - name: News
   url: /news
-- name: Professional Activities
-  url: /professional-activities
+- name: Activities
+  url: /activities
 - name: Publications
   url: /publications
-- name: Patents
-  url: /patents
-- name: Teaching
-  url: /teaching
-- name: Showcase
-  url: /showcase
