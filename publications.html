@@ -110,14 +110,14 @@ body_attr: >-
                                   data-bs-toggle="tooltip" title="Source Code">
                                     <i class="fas fa-code fa-sm"></i> <span class="small">Code</span>
                                 </a>
-                            {% elsif link.name == "BibTeX" and has_doi %}
+                            {% elsif link.name == "BibTeX" and link.url != '' %}
                                 <button class="btn btn-sm btn-outline-info me-1 small-link citation-btn" 
                                   data-type="bibtex"
                                   data-doi="{% if item.doi %}{{ item.doi }}{% else %}{{ link.url }}{% endif %}"
                                   data-bs-toggle="tooltip" title="Copy BibTeX Citation">
                                     <i class="fas fa-quote-right fa-sm"></i> <span class="small">BibTeX</span>
                                 </button>
-                            {% elsif link.name == "GB/T 7714" and has_doi %}
+                            {% elsif link.name == "GB/T 7714" and link.url != '' %}
                                 <button class="btn btn-sm btn-outline-success me-1 small-link citation-btn" 
                                   data-type="gbt7714"
                                   data-doi="{% if item.doi %}{{ item.doi }}{% else %}{{ link.url }}{% endif %}"

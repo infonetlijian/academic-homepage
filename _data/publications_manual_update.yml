@@ -225,7 +225,7 @@
   - name: DOI
     url: '10.1109/MNET.2025.3537691'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2025-%20%E3%80%90IEEE%20Network%E3%80%91%20-Integration_of_Quantum_Key_Distribution_Networks_and_Classical_Networks_An_Evolution_Perspective.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -251,9 +251,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/QCNC64685.2025.00044'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2025%20-%20%E3%80%90QCNC%E3%80%91%20-An_On-demand_Routing_Scheme_with_QoS_Provisioning_for_QKD_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -374,7 +374,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TCOMM.2024.3516497'
   - name: PDF
     url: ''
   - name: Code
@@ -409,7 +409,7 @@
   - name: DOI
     url: 10.1109/TNET.2024.3507785
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90ToN%E3%80%91-DRM-ETP_A_Dynamic_Rate_Matching-Based_Entanglement_Transport_Protocol_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -436,9 +436,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNET.2024.3476342'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90ToN%E3%80%91-NarrowGap_Reducing_Bottlenecks_for_End-to-End_Entanglement_Distribution_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
