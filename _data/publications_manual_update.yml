@@ -464,9 +464,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/WCSP62071.2024.10826602'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90WCSP%E3%80%91-PLMS_A_Packet_Loss_Memory-based_Transmission_Enhancement_Scheme_for_GEO_Satellite_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -493,9 +493,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: ' 10.1109/TNET.2024.3451231'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%20%E3%80%90ToN%E3%80%91%20-SLP_A_Secure_and_Lightweight_Scheme_Against_Content_Poisoning_Attacks_in_Named_Data_Networking_Based_on_Probing.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -521,9 +521,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1038/s42005-024-01796-2'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90ComPhys%E3%80%91-Purification%20scheduling%20control%20for%20throughput%20maximization%20in%20quantum%20networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -550,9 +550,38 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNET.2024.3447467'
   - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%20%E3%80%90ToN%E3%80%91%20-Adaptive_Multi-Source_Multi-Path_Congestion_Control_for_Named_Data_Networking.pdf'
+  - name: Code
     url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: zhuang2024pushing
+  title: Reliable forwarding strategy based on multiple attribute decision-making in NDN-Ad Hoc networks
+  date: '2024-05-01'
+  type: journal
+  publisher: Journal on Communication (通信学报)
+  abbr: 
+  year: 2024
+  authors:
+  - Jiangping Han
+  - Haodong Wang
+  - Jiayu Yang
+  - Kaiping Xue
+  - Jian Li*
+  volume: 45
+  number: 5
+  pages: 151-164
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.11959/j.issn.1000-436x.2024085'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024%20-%20%E3%80%90%E9%80%9A%E4%BF%A1%E5%AD%A6%E6%8A%A5%E3%80%91%20-Reliable%20forwarding%20strategy%20based%20on%20multiple%20attribute%20decision-making%20in%20NDN-Ad%20Hoc%20networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -583,9 +612,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSE.2024.3429402'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90TNSE%E3%80%91-Pushing_the_Performance_Limits_of_Datacenter_Networks_With_Fine-Grained_Priority_Assignment.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -614,9 +643,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TIFS.2024.3406145'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90TIFS%E3%80%91-A_Secure_and_Efficient_Blockchain_Sharding_Scheme_via_Hybrid_Consensus_and_Dynamic_Management.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -643,9 +672,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10628434'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90QCNC%E3%80%91-Efficient_Routing_Design_Based_on_Entanglement_Flow_Loss_Effect_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -670,9 +699,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSM.2024.3399028'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90TNSM%E3%80%91-ProactMP_A_Proactive_Multipath_Transport_Protocol_for_Low-Latency_Datacenters.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -699,9 +728,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tvt.2024.3369106
+    url: 'https://doi.org/10.1109/tvt.2024.3369106'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90TVT%E3%80%91-Cooperative_Caching_in_Satellite-Terrestrial_Integrated_Networks_A_Region_Features_Aware_Approach.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -727,9 +756,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TMC.2024.3377729'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90TMC%E3%80%91-Opportunistic_Content-Aware_Routing_in_Satellite-Terrestrial_Integrated_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -754,9 +783,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/mnet.2024.3396160
+    url: '10.1109/mnet.2024.3396160'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90IEEE%20Network%E3%80%91-Q-CSKDF_A_Continuous_and_Security_Key_Derivation_Function_for_Quantum_Key_Distribution.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -784,9 +813,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/jsac.2024.3380101
+    url: '10.1109/jsac.2024.3380101'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90JSAC%E3%80%91-REDP_Reliable_Entanglement_Distribution_Protocol_Design_for_Large-Scale_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -813,9 +842,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/icc51166.2024.10622992
+    url: '10.1109/icc51166.2024.10622992'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90ICC%E3%80%91-A_Distributed_Routing_Protocol_Based_on_Key_Reservation_in_Quantum_Key_Distribution_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
