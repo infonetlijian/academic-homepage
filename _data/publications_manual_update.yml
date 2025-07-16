@@ -873,9 +873,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1016/j.future.2025.107930
+    url: '10.1016/j.future.2025.107930'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90TDSC%E3%80%91-Volume-Hiding_Range_Searchable_Symmetric_Encryption_for_Large-Scale_Datasets.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -902,9 +902,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tcomm.2023.3323670
+    url: '10.1109/tcomm.2023.3323670'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024%20-%20%E3%80%90TCOM%E3%80%91-FMPTCP_Achieving_High_Bandwidth_Utilization_and_Low_Latency_in_Data_Center_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -930,9 +930,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/mnet.2023.3321044
+    url: '10.1109/mnet.2023.3321044'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024%20-%20%E3%80%90IEEE%20Network%E3%80%91-A_Connectionless_Entanglement_Distribution_Protocol_Design_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -958,9 +958,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSE.2023.3305195'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024%20-%20%E3%80%90IEEE%20Network%E3%80%91-A_Connectionless_Entanglement_Distribution_Protocol_Design_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -988,9 +988,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSE.2023.3299177'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TNSE%E3%80%91-An_Efficient_Scheduling_Scheme_of_Swapping_and_Purification_Operations_for_End-to-End_Entanglement_Distribution_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1018,9 +1018,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/COMST.2023.3294240'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90IEEE_COMST%E3%80%91-Entanglement-Assisted_Quantum_Networks_Mechanics_Enabling_Technologies_Challenges_and_Research_Directions.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1046,9 +1046,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSM.2023.3285110'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TNSM%E3%80%91-DECC_Achieving_Low_Latency_in_Data_Center_Networks_with_Deep_Reinforcement_Learning.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1075,9 +1075,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNET.2023.3285093'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90ToN%E3%80%91-Q-DDCA_Decentralized_Dynamic_Congestion_Avoid_Routing_in_Large-Scale_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1101,9 +1101,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/ICDCS57875.2023.00076'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90ICDCS%E3%80%91-L2BM_Switch_Buffer_Management_for_Hybrid_Traffic_in_Data_Center_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1131,9 +1131,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tnsm.2023.3275815
+    url: '10.1109/tnsm.2023.3275815'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TNSM%E3%80%91-Swapping-based_Entanglement_Routing_Design_for_Congestion_Mitigation_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1158,9 +1158,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MCOM.001.2200665'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90IEEE%20CM%E3%80%91-Make_Rental_Reliable_Blockchain-Based_Network_Slice_Management_Framework_with_SLA_Guarantee.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1189,9 +1189,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MCOM.010.2200672'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90IEEE%20CM%E3%80%91-A_Segment-based_Multipath_Distribution_Method_in_Partially-Trusted_Relay_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1216,9 +1216,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNET.2023.3246168'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90ToN%E3%80%91-An_Online_Learning_Assisted_Packet_Scheduler_for_MPTCP_in_Mobile_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1246,9 +1246,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TWC.2023.3246082'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TWC%E3%80%91-EdAR_An_Experience-driven_Multipath_Scheduler_for_Seamless_Handoff_in_Mobile_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1275,9 +1275,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TNSM.2023.3242419'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TNSM%E3%80%91-TCCC_A_Throughput_Consistency_Congestion_Control_Algorithm_for_MPTCP_in_Mixed_Transmission_of_Long_and_Short_Flows.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1303,11 +1303,11 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MNET.130.2200481'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90IEEE%20Network%E3%80%91-SimQN_a_Network-layer_Simulator_for_the_Quantum_Network_Investigation.pdf'
   - name: Code
-    url: ''
+    url: 'https://github.com/QNLab-USTC/SimQN'
   - name: BibTeX
     url: ''
   - name: GB/T 7714
@@ -1330,9 +1330,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/GLOBECOM48099.2022.10001143'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90GLOBECOM%E3%80%91-Content-Aware_Routing_based_on_Cached_Content_Prediction_in_Satellite_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1358,9 +1358,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/GLOBECOM48099.2022.10000662'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90GLOBECOM%E3%80%91-Privacy-preserving_Truth_Discovery_with_Outlier_Detection_in_Mobile_Crowdsensing_Systems.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1386,9 +1386,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/GLOBECOM48099.2022.10001146'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90GLOBECOM%E3%80%91-Forward_Private_Multi-Client_Searchable_Encryption_with_Efficient_Access_Control_in_Cloud_Storage.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1414,9 +1414,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MNET.107.2100483'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90IEEE%20Network%E3%80%91-Connection-Oriented_and_Connectionless_Remote_Entanglement_Distribution_Strategies_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1442,9 +1442,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MNET.001.2200177'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90IEEE%20Network%E3%80%91-An_Asynchronous_Entanglement_Distribution_Protocol_for_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1472,9 +1472,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TCOMM.2022.3205683'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TCOM%E3%80%91-A_Heuristic_Remote_Entanglement_Distribution_Algorithm_on_Memory-Limited_Quantum_Paths.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1500,11 +1500,11 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TCOMM.2022.3200115'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TCOM%E3%80%91-Fidelity-Guaranteed_Entanglement_Routing_in_Quantum_Networks.pdf'
   - name: Code
-    url: ''
+    url: 'https://github.com/infonetlijian/Fidelity-Guaranteed-Entanglement-Routing'
   - name: BibTeX
     url: ''
   - name: GB/T 7714
@@ -1529,9 +1529,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tnsm.2021.3136547
+    url: '10.1109/tnsm.2021.3136547'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TNSM%E3%80%91-CSEVP_A_Collaborative_Secure_and_Efficient_Content_Validation_Protection_Framework_for_Information_Centric_Networking.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1556,7 +1556,7 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/HPSR54439.2022.9831366'
   - name: PDF
     url: ''
   - name: Code
@@ -1582,9 +1582,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TQE.2022.3176375'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TQE%E3%80%91-A_Connection-Oriented_Entanglement_Distribution_Design_in_Quantum_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1610,9 +1610,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TVT.2022.3148303'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TVT%E3%80%91-A_Distributed_Authentication_Scheme_Based_on_Smart_Contract_for_Roaming_Service_in_Mobile_Vehicular_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1639,9 +1639,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1007/s11128-022-03528-3'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TVT%E3%80%91-A%20Cluster-based%20Networking%20Approach%20for%20Large-scale%20and%20Wide-area%20Quantum%20Key%20Agreement.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1667,9 +1667,62 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TVT.2021.3138203'
   - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TVT%E3%80%91-A_Blockchain_Based_User_Subscription_Data_Management_and_Access_Control_Scheme_in_Mobile_Communication_Networks.pdf'
+  - name: Code
     url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: zhang2021low
+  title: Low Priority Congestion Control for Multipath TCP
+  date: '2021-12-01'
+  type: conference
+  publisher: IEEE Global Communications Conference
+  abbr: GLOBECOM
+  year: 2021
+  authors:
+  - Yuan Zhang
+  - Jian Li*
+  - Jiayu Yang
+  - Yitao Xing
+  - Rui Zhuang
+  - Kaiping Xue
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/GLOBECOM46510.2021.9686024'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90GLOBECOM%E3%80%91-Low_Priority_Congestion_Control_for_Multipath_TCP.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: zhang2021low
+  title: Privacy-Preserving Truth Discovery for Sparse Data in Mobile Crowdsensing Systems
+  date: '2021-12-01'
+  type: conference
+  publisher: IEEE Global Communications Conference
+  abbr: GLOBECOM
+  year: 2021
+  authors:
+  - Feng Liu
+  - Bin Zhu 
+  - Shaoxian Yuan
+  - Jian Li
+  - Kaiping Xue*
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/GLOBECOM46510.2021.9685134'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90GLOBECOM%E3%80%91-Privacy-Preserving_Truth_Discovery_for_Sparse_Data_in_Mobile_Crowdsensing_Systems.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1694,9 +1747,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/GLOBECOM46510.2021.9685817'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90GLOBECOM%E3%80%91-A_Fog-Aided_Privacy-Preserving_Truth_Discovery_Framework_over_Crowdsensed_Data_Streams.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1721,9 +1774,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/hoticn48464.2019.9063222
+    url: '10.1109/hoticn48464.2019.9063222'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90TNSM%E3%80%91-Service_Prioritization_in_Information_Centric_Networking_With_Heterogeneous_Content_Providers.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1749,9 +1802,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TWC.2021.3085661'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90TWC%E3%80%91-Leveraging_Coupled_BBR_and_Adaptive_Packet_Scheduling_to_Boost_MPTCP.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1777,9 +1830,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TWC.2021.3081498'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90TWC%E3%80%91-A_Low-Latency_MPTCP_Scheduler_for_Live_Video_Streaming_in_Mobile_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1807,9 +1860,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.23919/JCC.2021.10.001'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2021-%E3%80%90CNCOMM%E3%80%91-Building_a_large-scale_and_wide-area_quantum_Internet_based_on_an_OSI-alike_model.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1834,9 +1887,9 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/tmc.2021.3114167
+    url: '10.1109/tmc.2021.3114167'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TMC%E3%80%91-Secure_Transmission_by_Leveraging_Multiple_Intelligent_Reflecting_Surfaces_in_MISO_Systems.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1859,9 +1912,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/HotICN50779.2020.9350838'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2020-Large-Scale_Small_Satellite_Network_Simulator_Design_and_Evaluation.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1886,9 +1939,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/LWC.2020.3007818'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2020-A%20User-Centric%20Handover%20Scheme%20for%20Ultra-Dense%20LEO%20Satellite%20Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1913,9 +1966,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/TWC.2020.2964236'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2020-Energy_efficiency_and_traffic_offloading_optimization_in_integrated_satelliteterrestrial_radio_access_networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1940,9 +1993,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/MNET.2019.1900138'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2019-An%20ICNSDN-Based%20Network%20Architecture%20and%20Efficient%20Content%20Retrieval%20for%20Future.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1966,11 +2019,11 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/icc.2017.7996551
+    url: '10.1109/icc.2017.7996551'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2019-Temporal_Netgrid_Model-Based_Dynamic_Routing_in_Large-Scale_Small_Satellite_Networks.pdf'
   - name: Code
-    url: ''
+    url: 'https://github.com/infonetlijian/Large-Scale-Satellite-Network-Simulator-LSNS'
   - name: BibTeX
     url: ''
   - name: GB/T 7714
@@ -1991,9 +2044,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/GLOCOM.2017.8254441'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2017-Service_Function_Chain_Mapping_with_Resource_Fragmentation_Avoidance.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -2016,9 +2069,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/ICC.2017.7997077'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2017-Robust_satellite_image_transmission_over_bandwidth-constrained_wireless_channels.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -2040,11 +2093,11 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/icc.2017.7996551
+    url: '10.1109/icc.2017.7996551'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2017-Temporal_netgrid_model_based_routing_optimization_in_satellite_networks.pdf'
   - name: Code
-    url: ''
+    url: 'https://github.com/infonetlijian/Large-Scale-Satellite-Network-Simulator-LSNS'
   - name: BibTeX
     url: ''
   - name: GB/T 7714
@@ -2066,9 +2119,9 @@
   tags: []
   links:
   - name: DOI
-    url: ''
+    url: '10.1109/GLOCOM.2016.7841557'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2016-A_Two-Layer_Caching_Model_for_Content_Delivery_Services_in_Satellite-Terrestrial_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
