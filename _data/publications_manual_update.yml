@@ -445,6 +445,33 @@
     url: ''
   - name: GB/T 7714
     url: ''
+- id: sun2024sran
+  title: 'S-RAN: Semantic-aware Radio Access Networks'
+  date: '2024-11-04'
+  type: journal
+  publisher: IEEE Communications Magazine
+  abbr: COMMAG
+  year: 2025
+  authors:
+  - Yao Sun
+  - Lan Zhang*
+  - Linke Guo
+  - Jian Li
+  - Dusit Niyato
+  - Yuguang Fang
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/MCOM.004.2400105'
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: long2024plms
   title: 'PLMS: A Packet Loss Memory-Based Transmission Enhancement Scheme for GEO
     Satellite Networks'
@@ -1557,6 +1584,32 @@
   links:
   - name: DOI
     url: '10.1109/HPSR54439.2022.9831366'
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: li2022avecvoting
+  title: 'AvecVoting: Anonymous and Verifiable E-voting with Untrustworthy Counters on Blockchain'
+  date: '2022-08-11'
+  type: conference
+  publisher: IEEE International Conference on Communications
+  abbr: ICC
+  year: 2022
+  authors:
+  - Meiqi Li 
+  - Xinyi Luo
+  - Wentuo Sun
+  - Jian Li
+  - Kaiping Xue
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/ICC45855.2022.9838840'
   - name: PDF
     url: ''
   - name: Code

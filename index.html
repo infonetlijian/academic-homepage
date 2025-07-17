@@ -28,3 +28,34 @@ navbar_title: Home
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
 {% endif %}
+
+<!-- 统计访问人数和IP地址来源地区 -->
+<div class="container-lg mt-5">
+    <div class="card border-0 shadow-sm bg-white">
+        <div class="card-body">
+            <h6>访问统计</h6>
+            <p id="visitor-count">访问人数: <span id="count">0</span></p>
+            <p id="visitor-location">您的IP地址和来源地区: <span id="location">加载中...</span></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 统计访问人数
+    let count = localStorage.getItem('visitCount') || 0;
+    count++;
+    localStorage.setItem('visitCount', count);
+    document.getElementById('count').textContent = count;
+
+    // 获取IP地址和地理位置
+    fetch('http://ip-api.com/json/')
+        .then(response => response.json())
+        .then(data => {
+            const location = `${data.query} (${data.country}, ${data.regionName}, ${data.city})`;
+            document.getElementById('location').textContent = location;
+        })
+        .catch(error => {
+            document.getElementById('location').textContent = '无法获取位置信息';
+            console.error('Error fetching location:', error);
+        });
+</script>
