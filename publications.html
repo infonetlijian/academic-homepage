@@ -8,6 +8,7 @@ body_attr: >-
 
 {% assign total_pubs = site.data.publications_manual_update | size %}
 {% assign pubs_by_year = site.data.publications_manual_update | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign preprints = site.data.preprints_manual_update | sort: "date" | reverse %}
 
 <style>
   .pub-index-col {
@@ -41,6 +42,92 @@ body_attr: >-
 
 <div class="row">
     <div class="col-12 col-lg-10">
+        <!-- Preprints Section -->
+        <h2 class="pt-4" id="preprints">Preprints</h2>
+        <div class="my-0 bg-white shadow-sm rounded-xl">
+            {% for preprint in preprints %}
+            <div class="pub-row {% unless forloop.last %}border-bottom{% endunless %}">
+                <!-- 序号列 -->
+                <div class="pub-index-col text-muted">
+                    {{ forloop.index }}.
+                </div>
+
+                <!-- 内容列 -->
+                <div class="pub-content-col">
+                    <!-- 论文标题 -->
+                    <div class="pub-title mb-1" style="font-size: 0.95rem; font-weight: normal;">
+                        {{ preprint.title }}
+                    </div>
+
+                    <!-- 作者信息 -->
+                    <div class="pub-meta">
+                        {% for author in preprint.authors %}
+                            {% if author contains "Jian Li" or author == "Jian Li" %}
+                                <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+                            {% else %}
+                                {{ author }}{% unless forloop.last %}, {% endunless %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <!-- 期刊信息 -->
+                    <div class="pub-meta">
+                        {% if preprint.publisher %}
+                            <u>{{ preprint.publisher }}</u>
+                        {% endif %}
+                        , {{ preprint.date | date: "%Y" }}
+                    </div>
+
+                    <!-- 链接行 -->
+                    {% if preprint.links and preprint.links.size > 0 %}
+                    <div class="pub-links">
+                        {% for link in preprint.links %}
+                            {% if link.name == "DOI" and link.url != "" and link.url != "''" %}
+                                <a href="https://doi.org/{{ link.url }}" target="_blank" 
+                                  class="btn btn-sm btn-outline-secondary me-1 small-link"
+                                  data-bs-toggle="tooltip" title="Digital Object Identifier">
+                                    <i class="fas fa-book fa-sm"></i> <span class="small">DOI</span>
+                                </a>
+                            {% elsif link.name == "PDF" and link.url != "" %}
+                                <a href="{{ link.url | relative_url }}" target="_blank" 
+                                  class="btn btn-sm btn-outline-danger me-1 small-link"
+                                  data-bs-toggle="tooltip" title="Download PDF">
+                                    <i class="fas fa-file-pdf fa-sm"></i> <span class="small">PDF</span>
+                                </a>
+                            {% elsif link.name == "Code" and link.url != '' %}
+                                <a href="{{ link.url }}" target="_blank" 
+                                  class="btn btn-sm btn-outline-dark me-1 small-link"
+                                  data-bs-toggle="tooltip" title="Source Code">
+                                    <i class="fas fa-code fa-sm"></i> <span class="small">Code</span>
+                                </a>
+                            {% elsif link.name == "BibTeX" and link.url != '' %}
+                                <button class="btn btn-sm btn-outline-info me-1 small-link citation-btn" 
+                                  data-type="bibtex"
+                                  data-doi="{% if preprint.doi %}{{ preprint.doi }}{% else %}{{ link.url }}{% endif %}"
+                                  data-bs-toggle="tooltip" title="Copy BibTeX Citation">
+                                    <i class="fas fa-quote-right fa-sm"></i> <span class="small">BibTeX</span>
+                                </button>
+                            {% elsif link.name == "GB/T 7714" and link.url != '' %}
+                                <button class="btn btn-sm btn-outline-success me-1 small-link citation-btn" 
+                                  data-type="gbt7714"
+                                  data-doi="{% if preprint.doi %}{{ preprint.doi }}{% else %}{{ link.url }}{% endif %}"
+                                  data-bs-toggle="tooltip" title="Copy GB/T 7714 Citation">
+                                    <i class="fas fa-scroll fa-sm"></i> <span class="small">Cite</span>
+                                </button>
+                            {% elsif link.name != "DOI" and link.name != "PDF" and link.name != "Code" and link.name != "BibTeX" and link.name != "GB/T 7714" %}
+                                <a href="{{ link.url }}" target="_blank" 
+                                  class="btn btn-sm btn-outline-primary me-1 small-link">
+                                    <span class="small">{{ link.name }}</span>
+                                </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
         {% assign pub_counter = total_pubs %}
         {% for year in pubs_by_year %}
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
@@ -74,6 +161,9 @@ body_attr: >-
                     <div class="pub-meta">
                         {% if item.publisher %}
                             <u>{{ item.publisher }}</u>
+                            {% if item.status %}
+                                <span class="text-muted"> ({{ item.status }})</span>
+                            {% endif %}
                             {% if item.volume or item.number or item.pages %}
                                 <span class="text-muted">, 
                                 {% if item.volume %}<strong>{{ item.volume }}</strong>{% endif %}
