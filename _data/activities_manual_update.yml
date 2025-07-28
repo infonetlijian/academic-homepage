@@ -14,8 +14,11 @@
     links:
 - type: Editorial Board
   list: 
-  - title: Editor of China Communications
+  - title: Editor, China Communications
     date: 2023
+    links: 
+  - title: Editor, IEEE Transactions on Communications
+    date: 2025
     links: 
 - type: Invited Talk
   list:
