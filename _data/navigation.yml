@@ -9,3 +9,5 @@ pages:
   url: /activities
 - name: Publications
   url: /publications
+- name: Patents
+  url: /patents
