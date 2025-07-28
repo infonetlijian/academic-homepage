@@ -16,9 +16,11 @@
   list: 
   - title: Editor, China Communications
     date: 2023
+    multipleYears: Feb. 2023-Present
     links: 
   - title: Editor, IEEE Transactions on Communications
     date: 2025
+    multipleYears: Jul. 2025-Present
     links: 
 - type: Invited Talk
   list:
@@ -30,12 +32,15 @@
   list:
   - title: IEEE Senior Member (IEEE ComSoc & IEEE CS)
     date: 2023
+    multipleYears: Since 2023
     links:
   - title: ACM Member
     date: 2023
+    multipleYears: Since 2023
     links:
   - title: CCF Member
     date: 2023
+    multipleYears: Since 2023
     links:
 - type: Organizing Committee
   isCommittee: true

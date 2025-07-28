@@ -24,7 +24,7 @@
                 {% if data.isCommittee %}
                     <div class="d-flex justify-content-between">
                         <div>
-                            {% if item.position contains 'Chair' %}
+                            {% if item.highlight == 'true' %}
                             <strong>{{ item.position }}</strong>,
                             {% else %}
                             {{ item.position }},
