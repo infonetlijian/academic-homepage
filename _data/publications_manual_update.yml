@@ -1,3 +1,30 @@
+- id: hu2025pureflow
+  title: 'PureFlow: An Unsupervised Autoencoder-Based Dataset Purification Framework for Malicious Traffic Detection'
+  date: '2025-08-01'
+  type: conference
+  publisher: IEEE International Conference on Communications
+  abbr: ICC
+  year: 2025
+  authors:
+  - Dongfang Hu 
+  - Lutong Chen*
+  - Jian Li
+  - Zixu Huang
+  - Chensa Du
+  - Kaiping Xue*
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: huang2025forensix
   title: 'ForenSiX: Automated Network Forensics and Diagnostics for Beyond-5G and
     6G Networks Using Large Language Models'
@@ -699,7 +726,7 @@
   tags: []
   links:
   - name: DOI
-    url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10628434'
+    url: '10.1109/QCNC62729.2024.00032'
   - name: PDF
     url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-%E3%80%90QCNC%E3%80%91-Efficient_Routing_Design_Based_on_Entanglement_Flow_Loss_Effect_in_Quantum_Networks.pdf'
   - name: Code
@@ -849,12 +876,39 @@
     url: ''
   - name: GB/T 7714
     url: ''
+- id: chen2024security
+  title: Security-Enhanced WireGuard Protocol Design using Quantum Key Distribution
+  date: '2024-06-01'
+  type: conference
+  publisher: IEEE International Conference on Computing, Networking and Communications
+  abbr: ICNC
+  year: 2024
+  authors:
+  - Lutong Chen
+  - Kaiping Xue*
+  - Jian Li*
+  - Zhonghui Li
+  - Nenghai Yu
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/ICNC59896.2024.10556292'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-【ICNC】-Security-Enhanced WireGuard Protocol Design using Quantum Key Distribution.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: wu2024distributed
   title: A Distributed Routing Protocol Based on Key Reservation in Quantum Key Distribution
     Networks
   date: '2024-06-01'
   type: conference
   publisher: IEEE International Conference on Communications
+  abbr: ICC
   year: 2024
   authors:
   - Jiaqi Wu
@@ -1018,6 +1072,102 @@
     url: '10.1109/TNSE.2023.3299177'
   - name: PDF
     url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90TNSE%E3%80%91-An_Efficient_Scheduling_Scheme_of_Swapping_and_Purification_Operations_for_End-to-End_Entanglement_Distribution_in_Quantum_Networks.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: chen2023plr
+  title: 'PLR: An In-Network Proactive Loss Recovery Scheme for Named Data Networking'
+  date: '2023-07-24'
+  type: conference
+  publisher: IEEE International Conference on Computer Communications and Networks 
+  abbr: ICCCN
+  year: 2023
+  authors:
+  - Yuxin Chen
+  - Jiayu Yang
+  - Xuanbo Huang
+  - Jiangping Han
+  - Bobo Wang*
+  - Jian Li
+  - Kaiping Xue
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/ICCCN58024.2023.10230118'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-【ICCCN】-PLR_An_In-Network_Proactive_Loss_Recovery_Scheme_for_Named_Data_Networking.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: xie2023achieving
+  title: Achieving Privacy-Preserving Outsourced SVM Training with Non-Linear Kernel
+  date: '2023-12-04'
+  type: conference
+  publisher: IEEE Global Communications Conference
+  abbr: GLOBECOM
+  year: 2023
+  authors:
+  - Yuandong Xie
+  - Jingcheng Zhao
+  - Bin Zhu
+  - Jian Li
+  - Ruidong Li
+  - Kaiping Xue*
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/GLOBECOM54140.2023.10437212'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-【GLOBECOM】-Achieving_Privacy-Preserving_Outsourced_SVM_Training_with_Non-Linear_Kernel.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: tang2023field
+  title: 'Field test of quantum key distribution over aerial fiber based on simple and stable modulation'
+  date: '2023-07-24'
+  type: journal
+  publisher: Optics Express
+  abbr: 
+  year: 2023
+  authors:
+  - Yan-Lin Tang#
+  - Zhi-Lin Xie#
+  - Chun Zhou#
+  - Dexiang Zhang
+  - Mu-Lan Xu
+  - Jian Sun
+  - De Sun
+  - Yong-Xiang Xu
+  - Li-Wei Wang
+  - Yan Ma
+  - Yu-Kang Zhao
+  - Mu-Sheng Jiang
+  - Yang Wang
+  - Jian Li
+  - Kaiping Xue
+  - Nenghai Yu
+  - Mei-Sheng Zhao 
+  - Dong-Dong Li 
+  - Wan-Su Bao
+  - Shi-Biao Tang*
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1364/OE.494318'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2023-【OE】-Field test of quantum key distribution over aerial fiber based on simple and stable modulation.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1282,6 +1432,34 @@
     url: ''
   - name: GB/T 7714
     url: ''
+- id: li2023efficient
+  title: 'Efficient Remote Entanglement Distribution in Quantum Networks: A Segment-Based Method'
+  date: '2023-07-18'
+  type: journal
+  publisher: IEEE Transactions on Network and Service Management
+  abbr: TNSM
+  year: 2023
+  authors:
+  - Zhonghui Li
+  - Jian Li
+  - Kaiping Xue*
+  - David S.L. Wei
+  - Nenghai Yu
+  - Qibin Sun
+  - Jun Lu
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/TNSM.2023.3296672'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/Efficient_2023-【TNSM】-Remote_Entanglement_Distribution_in_Quantum_Networks_A_Segment-Based_Method.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: yang2023tccc
   title: 'TCCC: A Throughput Consistency Congestion Control Algorithm for MPTCP in
     Mixed Transmission of Long and Short Flows'
@@ -1508,7 +1686,37 @@
     url: ''
   - name: GB/T 7714
     url: ''
-- id: li2022font
+- id: xing2022stream
+  title: A Stream-Aware MPQUIC Scheduler for HTTP Traffic in Mobile Networks
+  date: '2022-10-18'
+  type: journal
+  publisher: IEEE Transactions on Wireless Communications
+  abbr: TWC
+  year: 2022
+  authors:
+  - Xitao Xing
+  - Kaiping Xue*
+  - Yuan Zhang
+  - Jiangping Han
+  - Jian Li
+  - David S. L. Wei
+  - Ruidong Li
+  - Qibin Sun
+  - Jun Lu
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/TWC.2022.3213638'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-【TWC】-A_Stream-Aware_MPQUIC_Scheduler_for_HTTP_Traffic_in_Mobile_Networks.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: li2022fidelity
   title: Fidelity-Guaranteed Entanglement Routing in Quantum Networks
   date: '2022-08-01'
   type: journal
@@ -1532,6 +1740,64 @@
     url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-%E3%80%90TCOM%E3%80%91-Fidelity-Guaranteed_Entanglement_Routing_in_Quantum_Networks.pdf'
   - name: Code
     url: 'https://github.com/infonetlijian/Fidelity-Guaranteed-Entanglement-Routing'
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: zhuang2022achieving
+  title: 'Achieving Flexible and Lightweight Multipath Congestion Control Through Online Learning'
+  date: '2022-09-22'
+  type: journal
+  publisher: IEEE Transactions on Network and Service Management
+  abbr: TNSM
+  year: 2022
+  authors:
+  - Rui Zhuang
+  - Jiangping Han*
+  - Kaiping Xue*
+  - Jian Li*
+  - David S.L. Wei
+  - Ruidong Li
+  - Qibin Sun
+  - Jun Lu
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/TNSM.2022.3208747'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-【TNSM】-Achieving_Flexible_and_Lightweight_Multipath_Congestion_Control_Through_Online_Learning.pdf'
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: yang2022ieacc
+  title: 'IEACC: An Intelligent Edge-Aided Congestion Control Scheme for Named Data Networking With Deep Reinforcement Learning'
+  date: '2022-08-04'
+  type: journal
+  publisher: IEEE Transactions on Network and Service Management
+  abbr: TNSM
+  year: 2022
+  authors:
+  - Jiayu Yang
+  - Yuxin Chen
+  - Kaiping Xue*
+  - Jiangping Han
+  - Jian Li
+  - David S.L. Wei
+  - Qibin Sun
+  - Jun Lu
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/TNSM.2022.3196344'
+  - name: PDF
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-【TNSM】-IEACC_An_Intelligent_Edge-Aided_Congestion_Control_Scheme_for_Named_Data_Networking_With_Deep_Reinforcement_Learning.pdf'
+  - name: Code
+    url: ''
   - name: BibTeX
     url: ''
   - name: GB/T 7714
@@ -1565,9 +1831,36 @@
     url: ''
   - name: GB/T 7714
     url: ''
+- id: huang2022lldm
+  title: 'LLDM: Low-Latency DoS Attack Detection and Mitigation in SDN'
+  date: '2022-07-22'
+  type: conference
+  publisher: IEEE International Conference on High Performance Switching and Routing
+  abbr: HPSR
+  year: 2022
+  authors:
+  - Zixu Huang
+  - Xuanbo Huang
+  - Jian Li*
+  - Kaiping Xue*
+  - Qibin Sun
+  - Jun Lu
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: '10.1109/HPSR54439.2022.9831333'
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: zhang2022dynamic
   title: A Dynamic Flow Table Management Method Based on Real-time Traffic Monitoring
-  date: '2022-06-01'
+  date: '2022-07-22'
   type: conference
   publisher: IEEE International Conference on High Performance Switching and Routing
   abbr: HPSR
@@ -1611,7 +1904,7 @@
   - name: DOI
     url: '10.1109/ICC45855.2022.9838840'
   - name: PDF
-    url: ''
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2022-【ICC】-AvecVoting_Anonymous_and_Verifiable_E-voting_with_Untrustworthy_Counters_on_Blockchain.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1785,7 +2078,7 @@
 - id: yuan2021fog
   title: A Fog-Aided Privacy-Preserving Truth Discovery Framework over Crowdsensed
     Data Streams
-  date: '2021-08-01'
+  date: '2021-12-01'
   type: conference
   publisher: IEEE Global Communications Conference
   abbr: GLOBECOM

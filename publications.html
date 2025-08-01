@@ -40,48 +40,65 @@ body_attr: >-
   }
 </style>
 
+<!-- 已发表论文显示 -->
 <div class="row">
     <div class="col-12 col-lg-10">
-        <!-- Preprints Section -->
-        <h2 class="pt-4" id="preprints">Preprints</h2>
+              <h2 class="pt-4">Preprints</h2>
         <div class="my-0 bg-white shadow-sm rounded-xl">
-            {% for preprint in preprints %}
+            {% assign preprint_counter = preprints.size %}
+            {% for item in preprints %}
             <div class="pub-row {% unless forloop.last %}border-bottom{% endunless %}">
                 <!-- 序号列 -->
                 <div class="pub-index-col text-muted">
-                    {{ forloop.index }}.
+                    {{ preprint_counter }}.
                 </div>
-
+                
                 <!-- 内容列 -->
                 <div class="pub-content-col">
-                    <!-- 论文标题 -->
-                    <div class="pub-title mb-1" style="font-size: 0.95rem; font-weight: normal;">
-                        {{ preprint.title }}
-                    </div>
-
+                <!-- 论文标题 -->
+                <div class="pub-title mb-1" style="font-size: 0.95rem; font-weight: normal;">
+                    {{ item.title }}
+                </div>
+                    
                     <!-- 作者信息 -->
                     <div class="pub-meta">
-                        {% for author in preprint.authors %}
+                        {% for author in item.authors %}
                             {% if author contains "Jian Li" or author == "Jian Li" %}
-                                <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+                                <strong>{{ author }}</strong>
+                                {% if forloop.first %}
+                                    <span class="badge badge-primary">First Author</span>
+                                {% endif %}
+                                {% if author contains "*" %}
+                                    <span class="badge badge-secondary">Corresponding Author</span>
+                                {% endif %}
                             {% else %}
-                                {{ author }}{% unless forloop.last %}, {% endunless %}
+                                {{ author }}
                             {% endif %}
+                            {% unless forloop.last %}, {% endunless %}
                         {% endfor %}
                     </div>
-
+                    
                     <!-- 期刊信息 -->
                     <div class="pub-meta">
-                        {% if preprint.publisher %}
-                            <u>{{ preprint.publisher }}</u>
+                        {% if item.publisher %}
+                            <u>{{ item.publisher }}</u>
+                            {% if item.volume or item.number or item.pages %}
+                                <span class="text-muted">, 
+                                {% if item.volume %}<strong>{{ item.volume }}</strong>{% endif %}
+                                {% if item.number %}({{ item.number }}){% endif %}
+                                {% if item.pages %}: {{ item.pages }}{% endif %}
+                                </span>
+                            {% endif %}
+                        {% elsif item.conference %}
+                            <u>{{ item.conference }}</u>
                         {% endif %}
-                        , {{ preprint.date | date: "%Y" }}
+                        , {{ item.date | date: "%Y" }}
                     </div>
-
+                    
                     <!-- 链接行 -->
-                    {% if preprint.links and preprint.links.size > 0 %}
+                    {% if item.links and item.links.size > 0 %}
                     <div class="pub-links">
-                        {% for link in preprint.links %}
+                        {% for link in item.links %}
                             {% if link.name == "DOI" and link.url != "" and link.url != "''" %}
                                 <a href="https://doi.org/{{ link.url }}" target="_blank" 
                                   class="btn btn-sm btn-outline-secondary me-1 small-link"
@@ -103,14 +120,14 @@ body_attr: >-
                             {% elsif link.name == "BibTeX" and link.url != '' %}
                                 <button class="btn btn-sm btn-outline-info me-1 small-link citation-btn" 
                                   data-type="bibtex"
-                                  data-doi="{% if preprint.doi %}{{ preprint.doi }}{% else %}{{ link.url }}{% endif %}"
+                                  data-doi="{% if item.doi %}{{ item.doi }}{% else %}{{ link.url }}{% endif %}"
                                   data-bs-toggle="tooltip" title="Copy BibTeX Citation">
                                     <i class="fas fa-quote-right fa-sm"></i> <span class="small">BibTeX</span>
                                 </button>
                             {% elsif link.name == "GB/T 7714" and link.url != '' %}
                                 <button class="btn btn-sm btn-outline-success me-1 small-link citation-btn" 
                                   data-type="gbt7714"
-                                  data-doi="{% if preprint.doi %}{{ preprint.doi }}{% else %}{{ link.url }}{% endif %}"
+                                  data-doi="{% if item.doi %}{{ item.doi }}{% else %}{{ link.url }}{% endif %}"
                                   data-bs-toggle="tooltip" title="Copy GB/T 7714 Citation">
                                     <i class="fas fa-scroll fa-sm"></i> <span class="small">Cite</span>
                                 </button>
@@ -125,9 +142,10 @@ body_attr: >-
                     {% endif %}
                 </div>
             </div>
+            {% assign preprint_counter = preprint_counter | minus: 1 %}
             {% endfor %}
         </div>
-
+        
         {% assign pub_counter = total_pubs %}
         {% for year in pubs_by_year %}
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
@@ -150,10 +168,17 @@ body_attr: >-
                     <div class="pub-meta">
                         {% for author in item.authors %}
                             {% if author contains "Jian Li" or author == "Jian Li" %}
-                                <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+                                <strong>{{ author }}</strong>
+                                {% if forloop.first %}
+                                    <span class="badge badge-primary">First Author</span>
+                                {% endif %}
+                                {% if author contains "*" %}
+                                    <span class="badge badge-secondary">Corresponding Author</span>
+                                {% endif %}
                             {% else %}
-                                {{ author }}{% unless forloop.last %}, {% endunless %}
+                                {{ author }}
                             {% endif %}
+                            {% unless forloop.last %}, {% endunless %}
                         {% endfor %}
                     </div>
                     
@@ -161,9 +186,6 @@ body_attr: >-
                     <div class="pub-meta">
                         {% if item.publisher %}
                             <u>{{ item.publisher }}</u>
-                            {% if item.status %}
-                                <span class="text-muted"> ({{ item.status }})</span>
-                            {% endif %}
                             {% if item.volume or item.number or item.pages %}
                                 <span class="text-muted">, 
                                 {% if item.volume %}<strong>{{ item.volume }}</strong>{% endif %}
@@ -320,6 +342,7 @@ body_attr: >-
     <!-- 年份导航栏 -->
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            <a class="nav-link d-block" href="#preprints">Preprints</a>
             {% for year in pubs_by_year %}
             <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
             {% endfor %}
@@ -329,7 +352,6 @@ body_attr: >-
 
 <!-- 引用弹窗和脚本保持不变 -->
 <div class="modal fade" id="citationModal" tabindex="-1">[...]</div>
-<script>[...]</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BC0WVCG1DH"></script>

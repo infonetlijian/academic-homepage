@@ -1,3 +1,29 @@
+- id: huang2025deepetc
+  title: 'DeepETC: An Adaptive and Generalized Framework for Encrypted Traffic Classification'
+  date: '2025-08-01'
+  type: journal
+  publisher: IEEE Transactions on Networking (Under Review)
+  abbr: ToN
+  year: 2025
+  authors:
+  - Zixu Huang
+  - Lutong Chen
+  - Dongfang Hu 
+  - Jian Li*
+  - Kaiping Xue*
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: li2025hybrid
   title: 'HybridED: A Hybrid Entanglement Distribution Design for Efficient Quantum Teleportation inQuantum Communication Networks'
   date: '2025-07-27'
@@ -156,33 +182,6 @@
   - Qiuqing Long
   - Kaiping Xue*
   - Hyundong Shin*
-  selected: false
-  tags: []
-  links:
-  - name: DOI
-    url: ''
-  - name: PDF
-    url: ''
-  - name: Code
-    url: ''
-  - name: BibTeX
-    url: ''
-  - name: GB/T 7714
-    url: ''
-- id: hu2025pureflow
-  title: 'PureFlow: An Unsupervised Autoencoder-Based Dataset Purification Framework for Malicious Traffic Detection'
-  date: '2025-04-01'
-  type: journal
-  publisher: IEEE International Conference on Communications (Under Review)
-  abbr: ICC
-  year: 2025
-  authors:
-  - Dongfang Hu 
-  - Lutong Chen*
-  - Jian Li
-  - Zixu Huang
-  - Chensa Du
-  - Kaiping Xue*
   selected: false
   tags: []
   links:
