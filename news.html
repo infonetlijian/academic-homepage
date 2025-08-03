@@ -11,7 +11,7 @@ navbar_title: News
   
   <ul class="news-list">
     {% for item in news_items %}
-    <li class="news-item">
+    <li class="news-item {% if item.feature %}news-feature{% endif %}" style="text-align: justify;">
       <div class="news-content">
         {% if item.tag %}
           <span class="news-meta">[{{ item.tag }}] </span>
@@ -30,6 +30,12 @@ navbar_title: News
               </a>
             {% endfor %}
           </span>
+        {% endif %}
+
+        {% if item.feature %}
+          <div class="text-right">
+            <span class="badge badge-pill badge-info">Featured</span>
+          </div>
         {% endif %}
       </div>
     </li>
@@ -62,6 +68,10 @@ navbar_title: News
     padding-bottom: 6px;
     border-bottom: 1px solid #f0f0f0;
     line-height: 1.4;
+  }
+
+  .news-feature {
+    font-weight: bold;
   }
   
   .news-content {

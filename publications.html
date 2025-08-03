@@ -11,6 +11,14 @@ body_attr: >-
 {% assign preprints = site.data.preprints_manual_update | sort: "date" | reverse %}
 
 <style>
+  .pub-abbr {
+    font-weight: bold;
+    font-size: 0.9em; /* Match the font size of the sequence number */
+    color: #dc3545;
+    background-color: #f8f9fa;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
   .pub-index-col {
     width: 50px;
     min-width: 50px;
@@ -80,6 +88,9 @@ body_attr: >-
                     
                     <!-- 期刊信息 -->
                     <div class="pub-meta">
+                        {% if item.abbr %}
+                            <span class="pub-abbr">[{{ item.abbr }}]</span>
+                        {% endif %}
                         {% if item.publisher %}
                             <u>{{ item.publisher }}</u>
                             {% if item.volume or item.number or item.pages %}
@@ -184,6 +195,9 @@ body_attr: >-
                     
                     <!-- 期刊信息 -->
                     <div class="pub-meta">
+                        {% if item.abbr %}
+                            <span class="pub-abbr">[{{ item.abbr }}]</span>
+                        {% endif %}
                         {% if item.publisher %}
                             <u>{{ item.publisher }}</u>
                             {% if item.volume or item.number or item.pages %}

@@ -32,15 +32,15 @@
   list:
   - title: IEEE Senior Member (IEEE ComSoc & IEEE CS)
     date: 2023
-    multipleYears: Since 2023
+    multipleYears: 'Since 2023'
     links:
   - title: ACM Member
     date: 2023
-    multipleYears: Since 2023
+    multipleYears: 'Since 2023'
     links:
   - title: CCF Member
     date: 2023
-    multipleYears: Since 2023
+    multipleYears: 'Since 2023'
     links:
 - type: Organizing Committee
   isCommittee: true
