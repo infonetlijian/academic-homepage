@@ -1,3 +1,29 @@
+- id: ding2025mcm
+  title: 'MCM: Multi-faceted and Continuous Mitigation Cache Pollution Attacks in Named Data Networking'
+  date: '2025-08-10'
+  type: journal
+  publisher: IEEE/ACM Transactions on Networking
+  abbr: ToN
+  year: 2025
+  authors:
+  - Kunpeng Ding
+  - Kaiping Xue*
+  - Jiangping Han
+  - Jiayu Yang
+  - Jian Li
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: hu2025pureflow
   title: 'PureFlow: An Unsupervised Autoencoder-Based Dataset Purification Framework for Malicious Traffic Detection'
   date: '2025-08-01'
