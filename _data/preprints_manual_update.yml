@@ -1,3 +1,28 @@
+- id: li2025tree
+  title: 'Tree-based Networking Scheme: Towards Future Large-scale Quantum Local Area Networks with High Entanglement Connectivity'
+  date: '2025-08-15'
+  type: journal
+  publisher: IEEE Journal on Selected Areas in Communications
+  abbr: JSAC
+  year: 2025
+  authors:
+  - Zhonghui Li
+  - Yang Yang*
+  - Jian Li*
+  - Kaiping Xue
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: ding2025mcm
   title: 'MCM: Multi-faceted and Continuous Mitigation Cache Pollution Attacks in Named Data Networking'
   date: '2025-08-10'
@@ -76,7 +101,7 @@
   - name: GB/T 7714
     url: ''
 - id: lu2025networking
-  title: 'Fully heterogeneous networking for the next stage of quantum internet'
+  title: 'Fully Heterogeneous Networking for the Next Stage of Quantum Internet'
   date: '2025-06-01'
   type: journal
   publisher: Nature Communications (Under Review)

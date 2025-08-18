@@ -38,15 +38,8 @@ body_attr: >-
 <!-- 新增：专利展示 -->
 <h2 class="pt-4" id="patents">Patents</h2>
 <div class="my-0 bg-white shadow-sm rounded-xl">
-  {% assign patent_counter = site.data.patents_manual_update.size %}
   {% for patent in site.data.patents_manual_update %}
     <div class="pub-row {% unless forloop.last %}border-bottom{% endunless %}">
-      <!-- 序号列 -->
-      <div class="pub-index-col text-muted">
-        {{ patent_counter }}.
-      </div>
-      
-      <!-- 内容列 -->
       <div class="pub-content-col">
         <!-- 专利标题 -->
         <div class="pub-title mb-1" style="font-size: 0.95rem; font-weight: normal;">
@@ -65,6 +58,5 @@ body_attr: >-
         </div>
       </div>
     </div>
-    {% assign patent_counter = patent_counter | minus: 1 %}
   {% endfor %}
 </div>
