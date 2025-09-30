@@ -221,6 +221,32 @@
     url: ''
   - name: GB/T 7714
     url: ''
+- id: long2025multho
+  title: 'MulTho: Enabling Seamless Multipath Transmission with High-Accuracy Handover Detection in LEO Satellite Networks'
+  date: '2025-09-22'
+  type: journal
+  publisher: IEEE Transactions on Mobile Computing (Under Review)
+  abbr: TMC
+  year: 2025
+  authors:
+  - Qiuqing Long
+  - Jian Li*
+  - Jiangping Han
+  - Yuanxin Yan
+  - Kaiping Xue*
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: li2025cocats
   title: 'CoCaTS: A Cooperative Caching-enabled Transmission Scheme in Ultra-dense LEO Satellite Networks'
   date: '2025-07-22'
@@ -286,34 +312,6 @@
   - Bin Zhu
   - Jingchen Zhao
   - Jian Li
-  - Tianwei Zhang
-  selected: false
-  tags: []
-  links:
-  - name: DOI
-    url: ''
-  - name: PDF
-    url: ''
-  - name: Code
-    url: ''
-  - name: BibTeX
-    url: ''
-  - name: GB/T 7714
-    url: ''
-- id: peng2025privtf
-  title: 'PrivTF: Efficient and Privacy-Preserving Transformer Inference with Optimized Protocols for Secure NLP'
-  date: '2025-04-01'
-  type: journal
-  publisher: IEEE Transactions on Network Science and Engineering (Under Review)
-  abbr: TNSE
-  year: 2025
-  authors:
-  - Ziwei Peng 
-  - Kaiping Xue
-  - Bin Zhu
-  - Yaxuan Huang
-  - Jian Li
-  - Meng Hao
   - Tianwei Zhang
   selected: false
   tags: []
