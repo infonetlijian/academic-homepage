@@ -100,40 +100,6 @@
     url: ''
   - name: GB/T 7714
     url: ''
-- id: lu2025networking
-  title: 'Fully Heterogeneous Networking for the Next Stage of Quantum Internet'
-  date: '2025-06-01'
-  type: journal
-  publisher: Nature Communications (Under Review)
-  abbr: NC
-  year: 2025
-  authors:
-  - Feng-Yu Lu 
-  - Ze-Hao Wang
-  - Yao Zhou 
-  - Yu-Xuan Fan
-  - Shuang Wang*
-  - Zhen-Qiang Yin*
-  - Jian Li
-  - De-Yong He
-  - Fang-Xiang Wang
-  - Wei Chen
-  - Kaiping Xue
-  - Guang-Can Guo 
-  - Zheng-Fu Han
-  selected: false
-  tags: []
-  links:
-  - name: DOI
-    url: ''
-  - name: PDF
-    url: ''
-  - name: Code
-    url: ''
-  - name: BibTeX
-    url: ''
-  - name: GB/T 7714
-    url: ''
 - id: zheng2025towards
   title: 'Towards an Adaptive Multi-user Quantum Key Distribution Network'
   date: '2025-06-01'
