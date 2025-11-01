@@ -1,8 +1,9 @@
+<!-- ...existing code... -->
 <div class="card google-scholar-card">
-  <h3><i class="fas fa-graduation-cap"></i> Google Scholar 引用</h3>
+  <h3><i class="fas fa-graduation-cap"></i> Google Scholar 引用（实时）</h3>
 
   <div id="gs-summary">
-    <p id="gs-loading">正在加载 Google Scholar 数据…</p>
+    <p id="gs-loading">正在加载 Google Scholar 数据…（通过开放代理获取）</p>
   </div>
 
   <div style="width:100%;max-width:720px;">
@@ -14,8 +15,9 @@
 
 <script>
 (function(){
-  const USER_ID = 'ZuP2MtEAAAAJ'; // GoogleScholar user id (不包含 &hl)
-  const ENDPOINT = '/api/scholar?user=' + encodeURIComponent(USER_ID); // 后端必须实现此接口
+  const USER_ID = 'ZuP2MtEAAAAJ';
+  // 使用开放代理 r.jina.ai 直接抓取 scholar 页面（在中国大陆通常可访问）
+  const PROXY_URL = 'https://r.jina.ai/http://scholar.google.com/citations?user=' + encodeURIComponent(USER_ID) + '&hl=zh-CN';
 
   const loadingEl = document.getElementById('gs-loading');
   const summaryEl = document.getElementById('gs-summary');
@@ -28,7 +30,6 @@
     loadingEl.textContent = msg;
   }
 
-  // 动态加载 Chart.js（如果需要绘图）
   function loadChartJs(){
     return new Promise((resolve, reject) => {
       if (window.Chart) return resolve(window.Chart);
@@ -40,75 +41,77 @@
     });
   }
 
-  function normalizeData(resp){
-    // 期望后端返回：
-    // { total_citations: number, citations_by_year: { "2018":5, "2019":10, ... }, hindex:number, i10:number }
-    const total = resp.total_citations ?? resp.total ?? resp.totalCitations ?? null;
-    const hindex = resp.hindex ?? resp.h_index ?? resp.h ?? null;
-    const i10 = resp.i10 ?? resp.i10_index ?? resp.i10index ?? null;
+  function parseProfileHtml(html) {
+    // 解析 scholar 页面 HTML，提取总引用、h-index、i10 及按年引用
+    const doc = new DOMParser().parseFromString(html, 'text/html');
 
-    let series = null;
-    if (resp.citations_by_year && typeof resp.citations_by_year === 'object') {
-      series = resp.citations_by_year;
-    } else if (resp.citations && Array.isArray(resp.citations)) {
-      // 尝试识别 [{ year: '2019', citations: 5 }, ...]
-      const map = {};
-      resp.citations.forEach(it => {
-        if (it.year != null) map[String(it.year)] = Number(it.citations ?? it.count ?? 0);
+    const result = { total: null, hindex: null, i10: null, byYear: {} };
+
+    // 表格 #gsc_rsb_st 包含 Citations / h-index / i10-index
+    const table = doc.querySelector('#gsc_rsb_st');
+    if (table) {
+      const rows = table.querySelectorAll('tbody tr');
+      rows.forEach(tr => {
+        const th = tr.querySelector('td.gsc_rsb_t') || tr.querySelector('th');
+        const t = th ? th.textContent.trim().toLowerCase() : '';
+        const vals = Array.from(tr.querySelectorAll('td.gsc_rsb_std')).map(td => td.textContent.trim());
+        if (t.includes('citations')) {
+          result.total = vals[0] ? Number(vals[0].replace(/,/g,'')) : null; // all
+        } else if (t.includes('h-index') || t.includes('h index')) {
+          result.hindex = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
+        } else if (t.includes('i10-index') || t.includes('i10 index')) {
+          result.i10 = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
+        }
       });
-      if (Object.keys(map).length) series = map;
-    } else if (resp.raw && resp.raw.timeline) {
-      // 后端可能返回原始结构；尝试提取 timeline
-      const map = {};
-      (resp.raw.timeline || []).forEach(it => {
-        if (it.year) map[String(it.year)] = Number(it.citations ?? it.value ?? 0);
-      });
-      if (Object.keys(map).length) series = map;
     }
 
-    return { total, hindex, i10, series };
+    // 年度引用：类名 gsc_g_t（年份）与 gsc_g_al（对应数值）成对出现
+    const years = Array.from(doc.querySelectorAll('.gsc_g_t')).map(el => el.textContent.trim());
+    const vals = Array.from(doc.querySelectorAll('.gsc_g_al')).map(el => el.textContent.trim());
+    if (years.length && vals.length && years.length === vals.length) {
+      years.forEach((y, i) => {
+        const n = Number(vals[i].replace(/,/g,'')) || 0;
+        result.byYear[y] = n;
+      });
+    }
+
+    return result;
   }
 
   async function render(){
     try {
-      const res = await fetch(ENDPOINT, {cache: 'no-cache'});
-      if (!res.ok) throw new Error('网络请求失败: ' + res.status);
-      const j = await res.json();
+      const res = await fetch(PROXY_URL, { cache: 'no-cache', mode: 'cors' });
+      if (!res.ok) throw new Error('抓取失败: ' + res.status);
+      const html = await res.text();
 
-      const { total, hindex, i10, series } = normalizeData(j);
+      const data = parseProfileHtml(html);
 
       loadingEl.remove();
 
-      const html = document.createElement('div');
-      html.innerHTML = `
-        <p>总引用数：<strong>${total ?? '—'}</strong></p>
-        <p>h-index：<strong>${hindex ?? '—'}</strong>　i10-index：<strong>${i10 ?? '—'}</strong></p>
+      const summaryDiv = document.createElement('div');
+      summaryDiv.innerHTML = `
+        <p>总引用数：<strong>${data.total ?? '—'}</strong></p>
+        <p>h-index：<strong>${data.hindex ?? '—'}</strong>　i10-index：<strong>${data.i10 ?? '—'}</strong></p>
       `;
-      summaryEl.appendChild(html);
+      summaryEl.appendChild(summaryDiv);
 
-      if (series && Object.keys(series).length){
-        // 准备数据：按年份排序
-        const years = Object.keys(series).map(y => Number(y)).sort((a,b)=>a-b).map(String);
-        const values = years.map(y => Number(series[y] ?? 0));
+      const years = Object.keys(data.byYear).sort((a,b)=>Number(a)-Number(b));
+      if (years.length) {
+        const values = years.map(y => data.byYear[y]);
 
         await loadChartJs();
         canvas.style.display = 'block';
-
-        // eslint-disable-next-line no-undef
         const ctx = canvas.getContext('2d');
         // eslint-disable-next-line no-undef
         new Chart(ctx, {
-          type: 'line',
+          type: 'bar',
           data: {
             labels: years,
             datasets: [{
               label: '年度引用数',
               data: values,
-              borderColor: '#3b82f6',
-              backgroundColor: 'rgba(59,130,246,0.08)',
-              fill: true,
-              tension: 0.2,
-              pointRadius: 3
+              backgroundColor: '#3b82f6',
+              borderRadius: 3
             }]
           },
           options: {
@@ -118,31 +121,27 @@
               x: { title: { display: true, text: '年份' } },
               y: { title: { display: true, text: '引用数' }, beginAtZero: true }
             },
-            plugins: {
-              legend: { display: false },
-              tooltip: { mode: 'index', intersect: false }
-            }
+            plugins: { legend: { display: false } }
           }
         });
       } else {
         const note = document.createElement('p');
         note.className = 'small muted';
-        note.textContent = '无法获得年度引用分布（后端未返回时间序列）。';
+        note.textContent = '无法获得年度引用分布（页面未包含时间序列或代理响应格式不同）。';
         summaryEl.appendChild(note);
       }
-
     } catch (err) {
       console.error(err);
-      showError('无法获取 Google Scholar 数据。请确认你已部署后端 /api/scholar，并返回预期的 JSON。');
+      showError('无法获取 Google Scholar 数据（代理不可用或页面结构变化）。');
     }
   }
 
-  // 启动
   render();
 })();
 </script>
 
 <style>
-/* 可根据站点样式调整 */
 .google-scholar-card .small { font-size: 0.85rem; color:#6b7280; }
-.google-scholar-card .muted { color:#6b7280;
+.google-scholar-card .muted { color:#6b7280; }
+</style>
+<!-- ...existing code... -->
