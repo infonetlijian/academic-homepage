@@ -13,6 +13,8 @@ navbar_title: Home
     {% include widgets/experience_card.html %}
 {% endif %}
 
+{% include widgets/googlescholar_card.html %}
+
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.data.news_manual_update | size %}
     {% if count_news > 0 %}
