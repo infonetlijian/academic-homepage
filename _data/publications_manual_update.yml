@@ -1,29 +1,3 @@
-- id: tan2025distributed
-  title: 'Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks'
-  date: '2025-10-31'
-  type: journal
-  publisher: IEEE Transactions on Network Science and Engineering
-  abbr: TNSE
-  year: 2025
-  authors:
-  - Jiesheng Tan
-  - Zhonghui Li
-  - Jian Li
-  - Bin Liu*
-  - Nenghai Yu
-  selected: false
-  tags: []
-  links:
-  - name: DOI
-    url: ''
-  - name: PDF
-    url: ''
-  - name: Code
-    url: ''
-  - name: BibTeX
-    url: ''
-  - name: GB/T 7714
-    url: ''
 - id: lu2025networking
   title: 'Fully Heterogeneous Networking for the Next Stage of Quantum Internet'
   date: '2025-10-28'
@@ -32,9 +6,9 @@
   abbr: NC
   year: 2025
   authors:
-  - Feng-Yu Lu# 
-  - Ze-Hao Wang#
-  - Yao Zhou# 
+  - Feng-Yu Lu 
+  - Ze-Hao Wang
+  - Yao Zhou 
   - Yu-Xuan Fan
   - Shuang Wang*
   - Zhen-Qiang Yin*
@@ -62,7 +36,7 @@
   title: 'PrivTF: Efficient and Privacy-Preserving Transformer Inference with Optimized Protocols for Secure NLP'
   date: '2025-09-03'
   type: journal
-  publisher: IEEE Transactions on Network Science and Engineering
+  publisher: IEEE Transactions on Network Science and Engineering (Under Review)
   abbr: TNSE
   year: 2025
   authors:
@@ -437,7 +411,7 @@
     url: 'https://github.com/QNLab-USTC/USTC-QNLab-KMS24-Dataset'
 - id: wang2025netrt
   title: 'NetRT: Enhancing RDMA with Retransmission Offloading in Data Center Networks'
-  date: '2025-06-01'
+  date: '2025-12-01'
   type: conference
   publisher: IEEE Conference on Computer Communications
   abbr: INFOCOM

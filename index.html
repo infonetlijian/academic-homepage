@@ -2,13 +2,6 @@
 layout: default
 title : Homepage
 navbar_title: Home
-images:
-    - src: https://if.ustc.edu.cn/news/2025_6_18.JPG
-    title: 实验室合影
-    desc: 2025年毕业生合影
-    - src: https://mmbiz.qpic.cn/sz_mmbiz_jpg/mvTAfGicZxmiaL9nEKXk7aicibzT2yozdfwFbp9RvlxsN1yKWwhjxDFVOmjxGeXcQx7ibyWCjW3Q3cicK64zWT5BHfsA/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0
-    title: 实验室合影
-    desc: 2025年实验室羽毛球赛
 ---
 {% include widgets/profile_card.html %}
 
@@ -19,9 +12,6 @@ images:
 {% if site.data.display.homepage.show_experience %}
     {% include widgets/experience_card.html %}
 {% endif %}
-
-{% include widgets/googlescholar_card.html %}
-{% include widgets/githubstar_card.html %}
 
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.data.news_manual_update | size %}
@@ -39,47 +29,6 @@ images:
     %}
 {% endif %}
 
-<<<<<<< HEAD
-<!-- changed: wrap the two cards so they sit side-by-side with equal size -->
-<style>
-/* card-row: two equal cards side-by-side, responsive */
-.card-row {
-  display: flex;
-  gap: 1rem;
-  align-items: stretch;   /* 保证等高 */
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-}
-.card-row .card-col {
-  flex: 1 1 360px;        /* 最小列宽 360px，会在窄屏下换行 */
-  max-width: 48%;         /* 两列时各占不到 50% */
-  box-sizing: border-box;
-  display: flex;          /* 让内部 .card 能拉伸到相同高度 */
-}
-.card-row .card-col .card {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  /* 可选统一最小高度，若需固定高度可取消注释下一行 */
-  /* min-height: 260px; */
-}
-@media (max-width: 700px) {
-  .card-row .card-col {
-    max-width: 100%;
-    flex-basis: 100%;
-  }
-}
-</style>
-
-<div class="card-row">
-  <div class="card-col">
-    {% include widgets/githubstar_card.html %}
-  </div>
-</div>
-
-=======
->>>>>>> parent of 63f7f3d (update)
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BC0WVCG1DH"></script>
 <script>
