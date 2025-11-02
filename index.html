@@ -63,7 +63,15 @@ navbar_title: Home
 
 <div class="card-row">
   <div class="card-col">
-    {% include widgets/googlescholar_card.html %}
+    images:
+    - src: https://if.ustc.edu.cn/news/2025_6_18.JPG
+    title: 实验室合影
+    desc: 2025年毕业生合影
+    - src: https://mmbiz.qpic.cn/sz_mmbiz_jpg/mvTAfGicZxmiaL9nEKXk7aicibzT2yozdfwFbp9RvlxsN1yKWwhjxDFVOmjxGeXcQx7ibyWCjW3Q3cicK64zWT5BHfsA/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0
+    title: 实验室合影
+    desc: 2025年实验室羽毛球赛
+    {% include widgets/carousel.html id=page.id images=page.images height=page.height %}
+    {% include widgets/carousel.html id=page.id images=page.images height=page.height %}
   </div>
   <div class="card-col">
     {% include widgets/githubstar_card.html %}
