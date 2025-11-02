@@ -3,7 +3,6 @@ layout: default
 title: Teaching
 navbar_title: Teaching
 ---
-
 <div class="container mt-4">
     <div class="row">
         <div class="col-12">
@@ -14,10 +13,6 @@ navbar_title: Teaching
 
                 {% for course in site.data.teching_manual_update %}
                 <div class="pub-row {% unless forloop.last %}border-bottom{% endunless %}">
-                    <!-- 序号列 -->
-                    <div class="pub-index-col text-muted">
-                        {{ forloop.index }}.
-                    </div>
 
                     <!-- 内容列 -->
                     <div class="pub-content-col">

@@ -20,6 +20,9 @@ images:
     {% include widgets/experience_card.html %}
 {% endif %}
 
+{% include widgets/googlescholar_card.html %}
+{% include widgets/githubstar_card.html %}
+
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.data.news_manual_update | size %}
     {% if count_news > 0 %}
@@ -36,6 +39,7 @@ images:
     %}
 {% endif %}
 
+<<<<<<< HEAD
 <!-- changed: wrap the two cards so they sit side-by-side with equal size -->
 <style>
 /* card-row: two equal cards side-by-side, responsive */
@@ -70,14 +74,12 @@ images:
 
 <div class="card-row">
   <div class="card-col">
-
-    {% include widgets/carousel.html images=page.images %}
-  </div>
-  <div class="card-col">
     {% include widgets/githubstar_card.html %}
   </div>
 </div>
 
+=======
+>>>>>>> parent of 63f7f3d (update)
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BC0WVCG1DH"></script>
 <script>
