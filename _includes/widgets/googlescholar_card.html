@@ -3,7 +3,7 @@
   <h3><i class="fas fa-graduation-cap"></i> Google Scholar 引用（实时）</h3>
 
   <div id="gs-summary">
-    <p id="gs-loading">正在加载 Google Scholar 数据…（通过开放代理获取）</p>
+    <p id="gs-loading">正在尝试直接从 Google Scholar 获取数据…（若受限将自动回退）</p>
   </div>
 
   <div style="width:100%;max-width:720px;">
@@ -16,15 +16,15 @@
 <script>
 (function(){
   const USER_ID = 'ZuP2MtEAAAAJ';
-  // 使用开放代理 r.jina.ai 直接抓取 scholar 页面（在中国大陆通常可访问）
-  const PROXY_URL = 'https://r.jina.ai/http://scholar.google.com/citations?user=' + encodeURIComponent(USER_ID) + '&hl=zh-CN';
+  const PROFILE_URL = 'https://scholar.google.com/citations?user=' + encodeURIComponent(USER_ID) + '&hl=zh-CN';
+  const PROXY_FALLBACK = 'https://r.jina.ai/http://scholar.google.com/citations?user=' + encodeURIComponent(USER_ID) + '&hl=zh-CN';
 
   const loadingEl = document.getElementById('gs-loading');
   const summaryEl = document.getElementById('gs-summary');
   const linkEl = document.getElementById('gs-link');
   const canvas = document.getElementById('gs-citations-chart');
 
-  linkEl.href = 'https://scholar.google.com/citations?user=' + encodeURIComponent(USER_ID);
+  linkEl.href = PROFILE_URL;
 
   function showError(msg){
     loadingEl.textContent = msg;
@@ -42,97 +42,93 @@
   }
 
   function parseProfileHtml(html) {
-    // 解析 scholar 页面 HTML，提取总引用、h-index、i10 及按年引用
     const doc = new DOMParser().parseFromString(html, 'text/html');
-
     const result = { total: null, hindex: null, i10: null, byYear: {} };
 
-    // 表格 #gsc_rsb_st 包含 Citations / h-index / i10-index
     const table = doc.querySelector('#gsc_rsb_st');
     if (table) {
-      const rows = table.querySelectorAll('tbody tr');
+      const rows = table.querySelectorAll('tr');
       rows.forEach(tr => {
         const th = tr.querySelector('td.gsc_rsb_t') || tr.querySelector('th');
         const t = th ? th.textContent.trim().toLowerCase() : '';
         const vals = Array.from(tr.querySelectorAll('td.gsc_rsb_std')).map(td => td.textContent.trim());
-        if (t.includes('citations')) {
-          result.total = vals[0] ? Number(vals[0].replace(/,/g,'')) : null; // all
-        } else if (t.includes('h-index') || t.includes('h index')) {
-          result.hindex = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
-        } else if (t.includes('i10-index') || t.includes('i10 index')) {
-          result.i10 = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
-        }
+        if (t.includes('citations')) result.total = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
+        if (t.includes('h-index') || t.includes('h index')) result.hindex = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
+        if (t.includes('i10-index') || t.includes('i10 index')) result.i10 = vals[0] ? Number(vals[0].replace(/,/g,'')) : null;
       });
     }
 
-    // 年度引用：类名 gsc_g_t（年份）与 gsc_g_al（对应数值）成对出现
     const years = Array.from(doc.querySelectorAll('.gsc_g_t')).map(el => el.textContent.trim());
     const vals = Array.from(doc.querySelectorAll('.gsc_g_al')).map(el => el.textContent.trim());
     if (years.length && vals.length && years.length === vals.length) {
-      years.forEach((y, i) => {
-        const n = Number(vals[i].replace(/,/g,'')) || 0;
-        result.byYear[y] = n;
-      });
+      years.forEach((y,i) => result.byYear[y] = Number(vals[i].replace(/,/g,'')) || 0);
     }
-
     return result;
   }
 
-  async function render(){
+  async function fetchHtml(url, options = {}) {
+    // 尝试直接 fetch；若被 CORS 阻止，fetch 会抛出或返回不可读的响应
     try {
-      const res = await fetch(PROXY_URL, { cache: 'no-cache', mode: 'cors' });
-      if (!res.ok) throw new Error('抓取失败: ' + res.status);
-      const html = await res.text();
+      const res = await fetch(url, Object.assign({cache:'no-cache', mode:'cors'}, options));
+      // 在某些环境 res.type === 'opaque' 表示受限（no-cors/opaque）
+      if (!res.ok || res.type === 'opaque') throw new Error('cors or bad status: ' + res.status + ' / ' + res.type);
+      return await res.text();
+    } catch (e) {
+      throw e;
+    }
+  }
 
-      const data = parseProfileHtml(html);
-
-      loadingEl.remove();
-
-      const summaryDiv = document.createElement('div');
-      summaryDiv.innerHTML = `
-        <p>总引用数：<strong>${data.total ?? '—'}</strong></p>
-        <p>h-index：<strong>${data.hindex ?? '—'}</strong>　i10-index：<strong>${data.i10 ?? '—'}</strong></p>
-      `;
-      summaryEl.appendChild(summaryDiv);
-
-      const years = Object.keys(data.byYear).sort((a,b)=>Number(a)-Number(b));
-      if (years.length) {
-        const values = years.map(y => data.byYear[y]);
-
-        await loadChartJs();
-        canvas.style.display = 'block';
-        const ctx = canvas.getContext('2d');
-        // eslint-disable-next-line no-undef
-        new Chart(ctx, {
-          type: 'bar',
-          data: {
-            labels: years,
-            datasets: [{
-              label: '年度引用数',
-              data: values,
-              backgroundColor: '#3b82f6',
-              borderRadius: 3
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-              x: { title: { display: true, text: '年份' } },
-              y: { title: { display: true, text: '引用数' }, beginAtZero: true }
-            },
-            plugins: { legend: { display: false } }
-          }
-        });
-      } else {
-        const note = document.createElement('p');
-        note.className = 'small muted';
-        note.textContent = '无法获得年度引用分布（页面未包含时间序列或代理响应格式不同）。';
-        summaryEl.appendChild(note);
+  async function render(){
+    // 首先尝试直接从 Google Scholar 获取（用户浏览器直接访问）
+    let html = null;
+    try {
+      html = await fetchHtml(PROFILE_URL);
+    } catch (errDirect) {
+      // 直接访问通常会因为 CORS 被阻止，自动回退到代理并告知用户
+      console.warn('直接访问 Google Scholar 被阻止，回退到代理:', errDirect);
+      loadingEl.textContent = '直接访问被浏览器阻止，正在使用回退代理获取数据…';
+      try {
+        html = await fetchHtml(PROXY_FALLBACK, { mode: 'cors' });
+      } catch (errProxy) {
+        console.error('代理访问失败', errProxy);
+        showError('无法获取 Google Scholar 数据（直接访问受限，回退代理也不可用）。可部署本地/服务器代理或使用可用的 CORS 代理。');
+        return;
       }
-    } catch (err) {
-      console.error(err);
-      showError('无法获取 Google Scholar 数据（代理不可用或页面结构变化）。');
+    }
+
+    const data = parseProfileHtml(html);
+    loadingEl.remove();
+
+    const summaryDiv = document.createElement('div');
+    summaryDiv.innerHTML = `
+      <p>总引用数：<strong>${data.total ?? '—'}</strong></p>
+      <p>h-index：<strong>${data.hindex ?? '—'}</strong>　i10-index：<strong>${data.i10 ?? '—'}</strong></p>
+    `;
+    summaryEl.appendChild(summaryDiv);
+
+    const years = Object.keys(data.byYear).sort((a,b)=>Number(a)-Number(b));
+    if (years.length) {
+      const values = years.map(y => data.byYear[y]);
+      await loadChartJs();
+      canvas.style.display = 'block';
+      const ctx = canvas.getContext('2d');
+      // eslint-disable-next-line no-undef
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: years,
+          datasets: [{ label: '年度引用数', data: values, backgroundColor: '#3b82f6', borderRadius: 3 }]
+        },
+        options: { responsive: true, maintainAspectRatio: false,
+          scales: { x: { title: { display: true, text: '年份' } }, y: { title: { display: true, text: '引用数' }, beginAtZero: true } },
+          plugins: { legend: { display: false } }
+        }
+      });
+    } else {
+      const note = document.createElement('p');
+      note.className = 'small muted';
+      note.textContent = '无法获得年度引用分布（页面未包含时间序列或代理响应格式不同）。';
+      summaryEl.appendChild(note);
     }
   }
 
