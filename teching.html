@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teaching
-navbar_title: Teaching
+navbar_title: Teching
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
@@ -42,33 +42,33 @@ body_attr: >-
                             <div class="pub-links">
                                 {% for link in course.links %}
                                     {% if link.name == "homepage" and link.url != "" %}
-                                        <a href="{{ link.url }}" target="_blank" 
-                                          class="btn btn-sm btn-outline-primary me-1 small-link"
-                                          data-bs-toggle="tooltip" title="Course Homepage">
+                                    <a href="{{ link.url }}" target="_blank" 
+                                          class="btn btn-sm btn-outline-primary mr-1 small-link"
+                                          data-toggle="tooltip" title="Course Homepage">
                                             <i class="fas fa-home fa-sm"></i> <span class="small">Homepage</span>
                                         </a>
                                     {% elsif link.name == "PDF" and link.url != "" %}
                                         <a href="{{ link.url | relative_url }}" target="_blank" 
-                                          class="btn btn-sm btn-outline-danger me-1 small-link"
-                                          data-bs-toggle="tooltip" title="Download PDF">
+                                          class="btn btn-sm btn-outline-danger mr-1 small-link"
+                                          data-toggle="tooltip" title="Download PDF">
                                             <i class="fas fa-file-pdf fa-sm"></i> <span class="small">PDF</span>
                                         </a>
                                     {% elsif link.name == "Code" and link.url != '' %}
                                         <a href="{{ link.url }}" target="_blank" 
-                                          class="btn btn-sm btn-outline-dark me-1 small-link"
-                                          data-bs-toggle="tooltip" title="Source Code">
+                                          class="btn btn-sm btn-outline-dark mr-1 small-link"
+                                          data-toggle="tooltip" title="Source Code">
                                             <i class="fas fa-code fa-sm"></i> <span class="small">Code</span>
                                         </a>
                                     {% elsif link.name == "BibTeX" and link.url != '' %}
-                                        <button class="btn btn-sm btn-outline-info me-1 small-link citation-btn" 
+                                        <button class="btn btn-sm btn-outline-info mr-1 small-link citation-btn" 
                                           data-type="bibtex"
-                                          data-bs-toggle="tooltip" title="Copy BibTeX Citation">
+                                          data-toggle="tooltip" title="Copy BibTeX Citation">
                                             <i class="fas fa-quote-right fa-sm"></i> <span class="small">BibTeX</span>
                                         </button>
                                     {% elsif link.name == "GB/T 7714" and link.url != '' %}
-                                        <button class="btn btn-sm btn-outline-success me-1 small-link citation-btn" 
+                                        <button class="btn btn-sm btn-outline-success mr-1 small-link citation-btn" 
                                           data-type="gbt7714"
-                                          data-bs-toggle="tooltip" title="Copy GB/T 7714 Citation">
+                                          data-toggle="tooltip" title="Copy GB/T 7714 Citation">
                                             <i class="fas fa-scroll fa-sm"></i> <span class="small">GB/T 7714</span>
                                         </button>
                                     {% endif %}
