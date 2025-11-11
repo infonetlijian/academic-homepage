@@ -24,6 +24,40 @@
     url: ''
   - name: GB/T 7714
     url: ''
+- id: lu2025fully
+  title: 'Fully heterogeneous prepare-and-measure quantum network for the next stage of quantum internet'
+  date: '2025-10-31'
+  type: journal
+  publisher: Nature Communications
+  abbr: NC
+  year: 2025
+  authors:
+  - Fengyu Lu#
+  - Zehao Wang#
+  - Yao Zhou#
+  - Yuxuan Fan
+  - Shuang Wang*
+  - Zhenqiang Ying*
+  - Jian Li
+  - Deyong He
+  - FangXiang Wang
+  - Wei Chen
+  - Kaiping Xue
+  - Guangcan Guo
+  - Zhengfu Han
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: peng2025privtf
   title: 'PrivTF: Efficient and Privacy-Preserving Transformer Inference with Optimized Protocols for Secure NLP'
   date: '2025-09-03'
