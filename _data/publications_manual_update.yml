@@ -25,8 +25,8 @@
   - name: GB/T 7714
     url: ''
 - id: lu2025fully
-  title: 'Fully heterogeneous prepare-and-measure quantum network for the next stage of quantum internet'
-  date: '2025-10-31'
+  title: 'Fully Heterogeneous Prepare-and-measure Quantum Network for the Next Stage of Quantum Internet'
+  date: '2025-10-28'
   type: journal
   publisher: Nature Communications
   abbr: NC
@@ -114,8 +114,7 @@
   - name: GB/T 7714
     url: ''
 - id: huang2025forensix
-  title: 'ForenSiX: Automated Network Forensics and Diagnostics for Beyond-5G and
-    6G Networks Using Large Language Models'
+  title: 'ForenSiX: Automated Network Forensics and Diagnostics for Beyond-5G and 6G Networks Using Large Language Models'
   date: '2025-06-01'
   type: journal
   publisher: IEEE Network

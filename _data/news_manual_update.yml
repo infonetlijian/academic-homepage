@@ -1,3 +1,13 @@
+- title: 'our paper "Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks" is accepted by IEEE Transactions on Network Science and Engineering!'
+  tag: Paper
+  date: '2025-10-31'
+- title: 'our paper "Fully Heterogeneous Prepare-and-measure Quantum Network for the Next Stage of Quantum Internet" is accepted by Nature Communications!'
+  tag: Paper
+  feature: true
+  date: '2025-10-28'
+- title: 'our paper "PrivTF: Efficient and Privacy-Preserving Transformer Inference with Optimized Protocols for Secure NLP" is accepted by IEEE Transactions on Network Science and Engineering!'
+  tag: Paper
+  date: '2025-09-03'
 - title: 'one paper "PureFlow: An Unsupervised Autoencoder-Based Dataset Purification Framework for Malicious Traffic Detection" is accepted by IEEE GLOBECOM 2025!'
   tag: Paper
   date: '2025-08-01'
