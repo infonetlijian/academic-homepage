@@ -412,7 +412,7 @@
   tags: []
   links:
   - name: DOI
-    url: https://doi.org/10.1109/apcc62576.2024.10767961
+    url: https://doi.org/10.1109/ICC52391.2025.11161022
   - name: PDF
     url: ''
   - name: Code
@@ -511,7 +511,7 @@
   - name: DOI
     url: '10.1109/TCOMM.2024.3516497'
   - name: PDF
-    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-【TCOM-Fair-EAS_Entanglement_Allocation_and_Selection_for_Process-Oriented_Fairness_in_Quantum_Communication_Networks.pdf'
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-【TCOM】-Fair-EAS_Entanglement_Allocation_and_Selection_for_Process-Oriented_Fairness_in_Quantum_Communication_Networks.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1633,7 +1633,7 @@
   - name: DOI
     url: '10.1109/TNSM.2023.3296672'
   - name: PDF
-    url: 'https://infonetlijian.github.io/homepage/PDF_files/Efficient_2023-【TNSM】-Remote_Entanglement_Distribution_in_Quantum_Networks_A_Segment-Based_Method.pdf'
+    url: 'https://infonetlijian.github.io/homepage/PDF_files/2024-【TNSM】-Efficient_Remote_Entanglement_Distribution_in_Quantum_Networks_A_Segment-Based_Method.pdf'
   - name: Code
     url: ''
   - name: BibTeX
@@ -1956,7 +1956,7 @@
   - Rui Zhuang
   - Jiangping Han*
   - Kaiping Xue*
-  - Jian Li*
+  - Jian Li
   - David S.L. Wei
   - Ruidong Li
   - Qibin Sun
