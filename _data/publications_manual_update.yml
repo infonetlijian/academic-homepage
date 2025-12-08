@@ -1,3 +1,56 @@
+- id: chen2026quiks
+  title: 'QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient Quantum Key Distribution Networks'
+  date: '2025-12-08'
+  type: conference
+  publisher: IEEE Conference on Computer Communications (INFOCOM) 2026
+  abbr: INFOCOM
+  year: 2026
+  authors:
+  - Yuxin Chen 
+  - Zite Xia
+  - Jian Li*  
+  - Kaiping Xue* 
+  - Zhonghui Li 
+  - Ruidong Li
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
+- id: long2026lr2
+  title: 'LR2: Accelerating Long-Distance RDMA Recovery via In-Network Retransmission Decoupling'
+  date: '2025-12-08'
+  type: conference
+  publisher: IEEE Conference on Computer Communications (INFOCOM) 2026
+  abbr: INFOCOM
+  year: 2026
+  authors:
+  - Minfei Long
+  - Jiangping Han*
+  - Kaiping Xue* 
+  - Jinhao Liu
+  - Jian Li
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: tan2025distributed
   title: 'Distributed Entanglement Routing Scheme with Fidelity Guarantee in Quantum Networks'
   date: '2025-10-31'
@@ -459,7 +512,7 @@
   title: 'NetRT: Enhancing RDMA with Retransmission Offloading in Data Center Networks'
   date: '2025-06-01'
   type: conference
-  publisher: IEEE Conference on Computer Communications
+  publisher: IEEE Conference on Computer Communications (INFOCOM) 2025
   abbr: INFOCOM
   year: 2025
   authors:
