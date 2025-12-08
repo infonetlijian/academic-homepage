@@ -1,3 +1,30 @@
+- id: hu2025pureflow
+  title: 'Adaptive Software-Defined Perimeter Placement for Dynamic User Distributions in Zero-Trust Networks'
+  date: '2025-12-08'
+  type: journal
+  publisher: IEEE Transactions on Network Science and Engineering (Under Review)
+  abbr: TNSE
+  year: 2025
+  authors:
+  - Xuanbo Huang
+  - Kaiping Xue*
+  - Lutong Chen
+  - Jiangping Han
+  - Jian Li
+  - Ruidong Li
+  selected: false
+  tags: []
+  links:
+  - name: DOI
+    url: ''
+  - name: PDF
+    url: ''
+  - name: Code
+    url: ''
+  - name: BibTeX
+    url: ''
+  - name: GB/T 7714
+    url: ''
 - id: chen2026quiks
   title: 'QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient Quantum Key Distribution Networks'
   date: '2025-12-08'
