@@ -29,7 +29,7 @@
   title: 'QuIKS: Near-Zero Latency Key Supply with Adaptive Buffering for Resource-Efficient Quantum Key Distribution Networks'
   date: '2025-12-08'
   type: conference
-  publisher: IEEE Conference on Computer Communications (INFOCOM) 2026
+  publisher: IEEE Conference on Computer Communications (INFOCOM)
   abbr: INFOCOM
   year: 2026
   authors:
@@ -56,7 +56,7 @@
   title: 'LR2: Accelerating Long-Distance RDMA Recovery via In-Network Retransmission Decoupling'
   date: '2025-12-08'
   type: conference
-  publisher: IEEE Conference on Computer Communications (INFOCOM) 2026
+  publisher: IEEE Conference on Computer Communications (INFOCOM)
   abbr: INFOCOM
   year: 2026
   authors:
